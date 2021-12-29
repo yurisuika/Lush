@@ -1,0 +1,9 @@
+accessWidener v1 named
+
+accessible    method    net/minecraft/world/gen/stateprovider/SimpleBlockStateProvider    <init>    (Lnet/minecraft/block/BlockState;)V
+accessible    method    net/minecraft/block/SaplingBlock    <init>    (Lnet/minecraft/block/sapling/SaplingGenerator;Lnet/minecraft/block/AbstractBlock$Settings;)V
+accessible    method    net/minecraft/block/WoodenButtonBlock    <init>    (Lnet/minecraft/block/AbstractBlock$Settings;)V
+accessible    method    net/minecraft/block/StairsBlock    <init>    (Lnet/minecraft/block/BlockState;Lnet/minecraft/block/AbstractBlock$Settings;)V
+accessible    method    net/minecraft/block/PressurePlateBlock    <init>    (Lnet/minecraft/block/PressurePlateBlock$ActivationRule;Lnet/minecraft/block/AbstractBlock$Settings;)V
+accessible    method    net/minecraft/block/DoorBlock    <init>    (Lnet/minecraft/block/AbstractBlock$Settings;)V
+accessible    method    net/minecraft/block/TrapdoorBlock    <init>    (Lnet/minecraft/block/AbstractBlock$Settings;)V

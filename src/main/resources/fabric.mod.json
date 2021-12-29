@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "lush",
+  "version": "${version}",
+
+  "name": "Lush",
+  "description": "Lush - nature's bosom flows into your cup.",
+  "authors": [
+    "yurisuika"
+  ],
+  "contact": {
+    "homepage": "https://suikacraft.com",
+    "sources": "https://github.com/yurisuika/Lush"
+  },
+
+  "license": "MIT",
+  "icon": "assets/lush/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yurisuika.lush.Lush"
+    ]
+  },
+  "mixins": [
+    "lush.mixins.json"
+  ],
+
+  "accessWidener" : "lush.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

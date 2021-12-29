@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.yurisuika.lush.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BlockEntityTypeMixin",
+    "BoatDropsMixin",
+    "BoatTypeMixin",
+    "SignTypeAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

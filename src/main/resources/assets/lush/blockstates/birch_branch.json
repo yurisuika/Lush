@@ -1,0 +1,101 @@
+{
+  "multipart": [
+    {   "when": { "OR": [
+      { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false" },
+
+      { "north": "true", "south": "true" },
+      { "west": "true", "east": "true" },
+      { "up": "true", "down": "true" },
+
+      { "north": "true", "west": "true" },
+      { "north": "true", "east": "true" },
+      { "north": "true", "up": "true" },
+      { "north": "true", "down": "true" },
+
+      { "south": "true", "west": "true" },
+      { "south": "true", "east": "true" },
+      { "south": "true", "up": "true" },
+      { "south": "true", "down": "true" },
+
+      { "up": "true", "west": "true" },
+      { "up": "true", "east": "true" },
+
+      { "down": "true", "west": "true" },
+      { "down": "true", "east": "true" }
+    ]},
+      "apply": { "model": "lush:block/birch_branch_center", "uvlock": true }
+    },
+    {   "when": { "north": "true", "northtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_north", "uvlock": true }
+    },
+    {   "when": { "east": "true", "easttwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_east", "uvlock": true }
+    },
+    {   "when": { "south": "true", "southtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_south", "uvlock": true }
+    },
+    {   "when": { "west": "true", "westtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_west", "uvlock": true }
+    },
+    {   "when": { "up": "true", "uptwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_up", "uvlock": true }
+    },
+    {   "when": { "down": "true", "downtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_down", "uvlock": true }
+    },
+    {   "when": { "north": "true", "northtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_north", "uvlock": true }
+    },
+    {   "when": { "east": "true", "easttwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_east", "uvlock": true }
+    },
+    {   "when": { "south": "true", "southtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_south", "uvlock": true }
+    },
+    {   "when": { "west": "true", "westtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_west", "uvlock": true }
+    },
+    {   "when": { "up": "true", "uptwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_up", "uvlock": true }
+    },
+    {   "when": { "down": "true", "downtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_down", "uvlock": true }
+    },
+    {   "when": { "north": "true", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false", "northtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_center_north", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "true", "west": "false", "east": "false", "up": "false", "down": "false", "southtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_center_south", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "true", "east": "false", "up": "false", "down": "false", "westtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_center_west", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "false", "east": "true", "up": "false", "down": "false", "easttwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_center_east", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "true", "down": "false", "uptwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_center_up", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "true", "downtwig": "false" },
+      "apply": { "model": "lush:block/birch_branch_center_down", "uvlock": true }
+    },
+    {   "when": { "north": "true", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false", "northtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_center_north", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "true", "west": "false", "east": "false", "up": "false", "down": "false", "southtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_center_south", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "true", "east": "false", "up": "false", "down": "false", "westtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_center_west", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "false", "east": "true", "up": "false", "down": "false", "easttwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_center_east", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "true", "down": "false", "uptwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_center_up", "uvlock": true }
+    },
+    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "true", "downtwig": "true" },
+      "apply": { "model": "lush:block/birch_twig_center_down", "uvlock": true }
+    }
+  ]
+}

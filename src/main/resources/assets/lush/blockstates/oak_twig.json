@@ -1,0 +1,65 @@
+{
+    "multipart": [
+        {   "when": { "OR": [
+              { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false" },
+
+              { "north": "true", "south": "true" },
+              { "west": "true", "east": "true" },
+              { "up": "true", "down": "true" },
+
+              { "north": "true", "west": "true" },
+              { "north": "true", "east": "true" },
+              { "north": "true", "up": "true" },
+              { "north": "true", "down": "true" },
+
+              { "south": "true", "west": "true" },
+              { "south": "true", "east": "true" },
+              { "south": "true", "up": "true" },
+              { "south": "true", "down": "true" },
+
+              { "up": "true", "west": "true" },
+              { "up": "true", "east": "true" },
+
+              { "down": "true", "west": "true" },
+              { "down": "true", "east": "true" }
+            ]},
+            "apply": { "model": "lush:block/oak_twig_center", "uvlock": true }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "lush:block/oak_twig_north", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "lush:block/oak_twig_east", "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "lush:block/oak_twig_south", "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "lush:block/oak_twig_west", "uvlock": true }
+        },
+        {   "when": { "up": "true" },
+            "apply": { "model": "lush:block/oak_twig_up", "uvlock": true }
+        },
+        {   "when": { "down": "true" },
+            "apply": { "model": "lush:block/oak_twig_down", "uvlock": true }
+        },
+        {   "when": { "north": "true", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false" },
+          "apply": { "model": "lush:block/oak_twig_center_north", "uvlock": true }
+        },
+        {   "when": { "north": "false", "south": "true", "west": "false", "east": "false", "up": "false", "down": "false" },
+          "apply": { "model": "lush:block/oak_twig_center_south", "uvlock": true }
+        },
+        {   "when": { "north": "false", "south": "false", "west": "true", "east": "false", "up": "false", "down": "false" },
+          "apply": { "model": "lush:block/oak_twig_center_west", "uvlock": true }
+        },
+        {   "when": { "north": "false", "south": "false", "west": "false", "east": "true", "up": "false", "down": "false" },
+          "apply": { "model": "lush:block/oak_twig_center_east", "uvlock": true }
+        },
+        {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "true", "down": "false" },
+          "apply": { "model": "lush:block/oak_twig_center_up", "uvlock": true }
+        },
+        {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "true" },
+          "apply": { "model": "lush:block/oak_twig_center_down", "uvlock": true }
+        }
+    ]
+}

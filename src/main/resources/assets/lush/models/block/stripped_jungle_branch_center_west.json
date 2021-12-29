@@ -1,0 +1,7 @@
+{
+  "parent": "lush:block/template_stripped_branch_center_west",
+  "textures": {
+    "log": "lush:block/stripped_jungle_branch",
+    "log_top": "lush:block/stripped_jungle_branch_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "lush:block/template_stripped_twig_center_up",
+  "textures": {
+    "log": "lush:block/stripped_fir_twig",
+    "log_top": "lush:block/stripped_fir_twig_top"
+  }
+}

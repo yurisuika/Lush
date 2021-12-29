@@ -1,0 +1,7 @@
+{
+  "parent": "lush:block/template_branch_center_south",
+  "textures": {
+    "log": "lush:block/jungle_branch",
+    "log_top": "lush:block/jungle_branch_top"
+  }
+}

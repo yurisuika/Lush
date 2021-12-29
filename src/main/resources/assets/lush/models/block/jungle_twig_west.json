@@ -1,0 +1,7 @@
+{
+  "parent": "lush:block/template_twig_west",
+  "textures": {
+    "log": "lush:block/jungle_twig",
+    "log_top": "lush:block/jungle_twig_top"
+  }
+}

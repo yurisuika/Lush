@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#lush:oak_branches",
+    "#lush:spruce_branches",
+    "#lush:birch_branches",
+    "#lush:jungle_branches",
+    "#lush:dark_oak_branches",
+    "#lush:acacia_branches",
+
+    "#lush:fir_branches"
+    ]
+}

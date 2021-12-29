@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sticks",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "lush:twigs"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 2
+  }
+}

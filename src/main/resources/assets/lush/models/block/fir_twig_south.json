@@ -1,0 +1,7 @@
+{
+  "parent": "lush:block/template_twig_south",
+  "textures": {
+    "log": "lush:block/fir_twig",
+    "log_top": "lush:block/fir_twig_top"
+  }
+}

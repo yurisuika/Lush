@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "lush:fir_branch"
+    }
+  ],
+  "result": {
+    "item": "lush:fir_planks",
+    "count": 1
+  }
+}

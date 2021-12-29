@@ -1,0 +1,7 @@
+{
+  "parent": "lush:block/template_twig_center_down",
+  "textures": {
+    "log": "lush:block/oak_twig",
+    "log_top": "lush:block/oak_twig_top"
+  }
+}
