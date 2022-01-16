@@ -1,7 +1,0 @@
-{
-	"parent": "lush:block/template_trunk_inventory",
-	"textures": {
-		"end": "lush:block/stripped_birch_trunk_end",
-		"side": "lush:block/stripped_birch_trunk"
-	}
-}

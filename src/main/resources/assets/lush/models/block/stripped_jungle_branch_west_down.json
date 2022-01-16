@@ -1,9 +1,0 @@
-{
-	"parent": "lush:block/template_branch_west_down",
-	"textures": {
-		"end": "lush:block/stripped_jungle_branch_end",
-		"particle": "lush:block/stripped_jungle_trunk",
-		"side": "lush:block/stripped_jungle_branch",
-		"sideLD": "lush:block/stripped_jungle_branch_left_down"
-	}
-}

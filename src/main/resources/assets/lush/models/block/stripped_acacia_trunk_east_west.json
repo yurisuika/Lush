@@ -1,8 +1,0 @@
-{
-	"parent": "lush:block/template_trunk_east_west",
-	"textures": {
-		"end": "lush:block/stripped_acacia_trunk_end",
-		"particle": "lush:block/stripped_acacia_trunk",
-		"side": "lush:block/stripped_acacia_trunk"
-	}
-}

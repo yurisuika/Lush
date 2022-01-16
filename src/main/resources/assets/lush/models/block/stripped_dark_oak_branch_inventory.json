@@ -1,7 +1,0 @@
-{
-	"parent": "lush:block/template_branch_inventory",
-	"textures": {
-		"end": "lush:block/stripped_dark_oak_branch_end",
-		"side": "lush:block/stripped_dark_oak_branch"
-	}
-}

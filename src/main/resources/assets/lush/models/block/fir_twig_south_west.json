@@ -1,9 +1,0 @@
-{
-	"parent": "lush:block/template_twig_south_west",
-	"textures": {
-		"end": "lush:block/fir_twig_end",
-		"particle": "lush:block/fir_trunk",
-		"side": "lush:block/fir_twig",
-		"sideLD": "lush:block/fir_twig_left_down"
-	}
-}

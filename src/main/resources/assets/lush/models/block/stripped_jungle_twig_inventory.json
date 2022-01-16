@@ -1,7 +1,0 @@
-{
-	"parent": "lush:block/template_twig_inventory",
-	"textures": {
-		"end": "lush:block/stripped_jungle_twig_end",
-		"side": "lush:block/stripped_jungle_twig"
-	}
-}

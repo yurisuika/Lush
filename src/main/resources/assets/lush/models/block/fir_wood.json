@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "lush:block/fir_log",
-    "side": "lush:block/fir_log"
-  }
-}

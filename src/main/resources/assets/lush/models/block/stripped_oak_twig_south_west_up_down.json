@@ -1,9 +1,0 @@
-{
-	"parent": "lush:block/template_twig_south_west_up_down",
-	"textures": {
-		"end": "lush:block/stripped_oak_twig_end",
-		"particle": "lush:block/stripped_oak_trunk",
-		"sideLDU": "lush:block/stripped_oak_twig_left_down_up",
-		"sideLRD": "lush:block/stripped_oak_twig_left_right_down"
-	}
-}
