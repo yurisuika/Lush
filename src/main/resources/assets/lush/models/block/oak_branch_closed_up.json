@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_branch_closed_up",
+	"textures": {
+		"particle": "lush:block/oak_trunk",
+		"side": "lush:block/oak_branch",
+		"wood": "lush:block/oak_branch_left_right_down_up"
+	}
+}

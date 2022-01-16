@@ -1,6 +1,6 @@
 {
-  "parent": "block/template_fence_gate",
+  "parent": "minecraft:block/template_fence_gate",
   "textures": {
-    "texture": "lush:block/fir_fence_gate"
+    "texture": "lush:block/fir_planks"
   }
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "lush:block/template_twig_center_west",
-  "textures": {
-    "log": "lush:block/spruce_twig",
-    "log_top": "lush:block/spruce_twig_top"
-  }
-}

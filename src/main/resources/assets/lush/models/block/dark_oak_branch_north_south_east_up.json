@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_branch_north_south_east_up",
+	"textures": {
+		"end": "lush:block/dark_oak_branch_end",
+		"particle": "lush:block/dark_oak_trunk",
+		"sideLRU": "lush:block/dark_oak_branch_left_right_up",
+		"sideRDU": "lush:block/dark_oak_branch_right_down_up"
+	}
+}

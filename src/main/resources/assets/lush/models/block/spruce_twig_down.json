@@ -1,7 +1,8 @@
 {
-  "parent": "lush:block/template_twig_down",
-  "textures": {
-    "log": "lush:block/spruce_twig",
-    "log_top": "lush:block/spruce_twig_top"
-  }
+	"parent": "lush:block/template_twig_down",
+	"textures": {
+		"end": "lush:block/spruce_twig_end",
+		"particle": "lush:block/spruce_trunk",
+		"side": "lush:block/spruce_twig"
+	}
 }

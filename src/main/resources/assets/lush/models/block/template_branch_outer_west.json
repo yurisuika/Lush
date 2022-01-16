@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"from": [0, 4, 4],
+			"to": [4, 12, 12],
+			"faces": {
+				"north": {"uv": [4, 12, 12, 16], "rotation": 270, "texture": "#side"},
+				"south": {"uv": [4, 12, 12, 16], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [4, 4, 12, 12], "texture": "#end"},
+				"up": {"uv": [4, 12, 12, 16], "rotation": 90, "texture": "#side"},
+				"down": {"uv": [4, 12, 12, 16], "rotation": 90, "texture": "#side"}
+			}
+		}
+	]
+}

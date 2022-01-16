@@ -1,101 +1,128 @@
 {
-  "multipart": [
-    {   "when": { "OR": [
-      { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false" },
-
-      { "north": "true", "south": "true" },
-      { "west": "true", "east": "true" },
-      { "up": "true", "down": "true" },
-
-      { "north": "true", "west": "true" },
-      { "north": "true", "east": "true" },
-      { "north": "true", "up": "true" },
-      { "north": "true", "down": "true" },
-
-      { "south": "true", "west": "true" },
-      { "south": "true", "east": "true" },
-      { "south": "true", "up": "true" },
-      { "south": "true", "down": "true" },
-
-      { "up": "true", "west": "true" },
-      { "up": "true", "east": "true" },
-
-      { "down": "true", "west": "true" },
-      { "down": "true", "east": "true" }
-    ]},
-      "apply": { "model": "lush:block/stripped_fir_branch_center", "uvlock": true }
-    },
-    {   "when": { "north": "true", "northtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_north", "uvlock": true }
-    },
-    {   "when": { "east": "true", "easttwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_east", "uvlock": true }
-    },
-    {   "when": { "south": "true", "southtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_south", "uvlock": true }
-    },
-    {   "when": { "west": "true", "westtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_west", "uvlock": true }
-    },
-    {   "when": { "up": "true", "uptwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_up", "uvlock": true }
-    },
-    {   "when": { "down": "true", "downtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_down", "uvlock": true }
-    },
-    {   "when": { "north": "true", "northtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_north", "uvlock": true }
-    },
-    {   "when": { "east": "true", "easttwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_east", "uvlock": true }
-    },
-    {   "when": { "south": "true", "southtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_south", "uvlock": true }
-    },
-    {   "when": { "west": "true", "westtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_west", "uvlock": true }
-    },
-    {   "when": { "up": "true", "uptwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_up", "uvlock": true }
-    },
-    {   "when": { "down": "true", "downtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_down", "uvlock": true }
-    },
-    {   "when": { "north": "true", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false", "northtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_center_north", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "true", "west": "false", "east": "false", "up": "false", "down": "false", "southtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_center_south", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "true", "east": "false", "up": "false", "down": "false", "westtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_center_west", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "false", "east": "true", "up": "false", "down": "false", "easttwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_center_east", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "true", "down": "false", "uptwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_center_up", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "true", "downtwig": "false" },
-      "apply": { "model": "lush:block/stripped_fir_branch_center_down", "uvlock": true }
-    },
-    {   "when": { "north": "true", "south": "false", "west": "false", "east": "false", "up": "false", "down": "false", "northtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_center_north", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "true", "west": "false", "east": "false", "up": "false", "down": "false", "southtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_center_south", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "true", "east": "false", "up": "false", "down": "false", "westtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_center_west", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "false", "east": "true", "up": "false", "down": "false", "easttwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_center_east", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "true", "down": "false", "uptwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_center_up", "uvlock": true }
-    },
-    {   "when": { "north": "false", "south": "false", "west": "false", "east": "false", "up": "false", "down": "true", "downtwig": "true" },
-      "apply": { "model": "lush:block/stripped_fir_twig_center_down", "uvlock": true }
-    }
-  ]
+    "multipart": [
+        {"when":{"north":"true","branchednorth":"false"},"apply":{"model":"lush:block/stripped_fir_branch_outer_north"}},
+        {"when":{"south":"true","branchedsouth":"false"},"apply":{"model":"lush:block/stripped_fir_branch_outer_south"}},
+        {"when":{"east":"true","branchedeast":"false"},"apply":{"model":"lush:block/stripped_fir_branch_outer_east"}},
+        {"when":{"west":"true","branchedwest":"false"},"apply":{"model":"lush:block/stripped_fir_branch_outer_west"}},
+        {"when":{"up":"true","branchedup":"false"},"apply":{"model":"lush:block/stripped_fir_branch_outer_up"}},
+        {"when":{"down":"true","brancheddown":"false"},"apply":{"model":"lush:block/stripped_fir_branch_outer_down"}},
+        {"when":{"branchednorth":"true"},"apply":{"model":"lush:block/stripped_fir_twig_outer_north"}},
+        {"when":{"branchedsouth":"true"},"apply":{"model":"lush:block/stripped_fir_twig_outer_south"}},
+        {"when":{"branchedeast":"true"},"apply":{"model":"lush:block/stripped_fir_twig_outer_east"}},
+        {"when":{"branchedwest":"true"},"apply":{"model":"lush:block/stripped_fir_twig_outer_west"}},
+        {"when":{"branchedup":"true"},"apply":{"model":"lush:block/stripped_fir_twig_outer_up"}},
+        {"when":{"brancheddown":"true"},"apply":{"model":"lush:block/stripped_fir_twig_outer_down"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"false","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"false","up":"false","down":"false","branchednorth":"false","branchedsouth":"false","branchedeast":"false","branchedwest":"false","branchedup":"false","brancheddown":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north"}},
+        {"when":{"OR":[
+          {"north":"true","south":"false","east":"false","west":"false","up":"false","down":"false","branchednorth":"true"},
+          {"north":"true","south":"false","east":"false","west":"false","up":"false","down":"false","branchedsouth":"true"},
+          {"north":"true","south":"false","east":"false","west":"false","up":"false","down":"false","branchedeast":"true"},
+          {"north":"true","south":"false","east":"false","west":"false","up":"false","down":"false","branchedwest":"true"},
+          {"north":"true","south":"false","east":"false","west":"false","up":"false","down":"false","branchedup":"true"},
+          {"north":"true","south":"false","east":"false","west":"false","up":"false","down":"false","brancheddown":"true"}
+        ]},"apply":{"model":"lush:block/stripped_fir_branch_closed_north"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"false","up":"false","down":"false","branchednorth":"false","branchedsouth":"false","branchedeast":"false","branchedwest":"false","branchedup":"false","brancheddown":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south"}},
+        {"when":{"OR":[
+          {"north":"false","south":"true","east":"false","west":"false","up":"false","down":"false","branchednorth":"true"},
+          {"north":"false","south":"true","east":"false","west":"false","up":"false","down":"false","branchedsouth":"true"},
+          {"north":"false","south":"true","east":"false","west":"false","up":"false","down":"false","branchedeast":"true"},
+          {"north":"false","south":"true","east":"false","west":"false","up":"false","down":"false","branchedwest":"true"},
+          {"north":"false","south":"true","east":"false","west":"false","up":"false","down":"false","branchedup":"true"},
+          {"north":"false","south":"true","east":"false","west":"false","up":"false","down":"false","brancheddown":"true"}
+        ]},"apply":{"model":"lush:block/stripped_fir_branch_closed_south"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"false","up":"false","down":"false","branchednorth":"false","branchedsouth":"false","branchedeast":"false","branchedwest":"false","branchedup":"false","brancheddown":"false"},"apply":{"model":"lush:block/stripped_fir_branch_east"}},
+        {"when":{"OR":[
+          {"north":"false","south":"false","east":"true","west":"false","up":"false","down":"false","branchednorth":"true"},
+          {"north":"false","south":"false","east":"true","west":"false","up":"false","down":"false","branchedsouth":"true"},
+          {"north":"false","south":"false","east":"true","west":"false","up":"false","down":"false","branchedeast":"true"},
+          {"north":"false","south":"false","east":"true","west":"false","up":"false","down":"false","branchedwest":"true"},
+          {"north":"false","south":"false","east":"true","west":"false","up":"false","down":"false","branchedup":"true"},
+          {"north":"false","south":"false","east":"true","west":"false","up":"false","down":"false","brancheddown":"true"}
+        ]},"apply":{"model":"lush:block/stripped_fir_branch_closed_east"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"true","up":"false","down":"false","branchednorth":"false","branchedsouth":"false","branchedeast":"false","branchedwest":"false","branchedup":"false","brancheddown":"false"},"apply":{"model":"lush:block/stripped_fir_branch_west"}},
+        {"when":{"OR":[
+          {"north":"false","south":"false","east":"false","west":"true","up":"false","down":"false","branchednorth":"true"},
+          {"north":"false","south":"false","east":"false","west":"true","up":"false","down":"false","branchedsouth":"true"},
+          {"north":"false","south":"false","east":"false","west":"true","up":"false","down":"false","branchedeast":"true"},
+          {"north":"false","south":"false","east":"false","west":"true","up":"false","down":"false","branchedwest":"true"},
+          {"north":"false","south":"false","east":"false","west":"true","up":"false","down":"false","branchedup":"true"},
+          {"north":"false","south":"false","east":"false","west":"true","up":"false","down":"false","brancheddown":"true"}
+        ]},"apply":{"model":"lush:block/stripped_fir_branch_closed_west"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"false","up":"true","down":"false","branchednorth":"false","branchedsouth":"false","branchedeast":"false","branchedwest":"false","branchedup":"false","brancheddown":"false"},"apply":{"model":"lush:block/stripped_fir_branch_up"}},
+        {"when":{"OR":[
+          {"north":"false","south":"false","east":"false","west":"false","up":"true","down":"false","branchednorth":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"true","down":"false","branchedsouth":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"true","down":"false","branchedeast":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"true","down":"false","branchedwest":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"true","down":"false","branchedup":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"true","down":"false","brancheddown":"true"}
+        ]},"apply":{"model":"lush:block/stripped_fir_branch_closed_up"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"false","up":"false","down":"true","branchednorth":"false","branchedsouth":"false","branchedeast":"false","branchedwest":"false","branchedup":"false","brancheddown":"false"},"apply":{"model":"lush:block/stripped_fir_branch_down"}},
+        {"when":{"OR":[
+          {"north":"false","south":"false","east":"false","west":"false","up":"false","down":"true","branchednorth":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"false","down":"true","branchedsouth":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"false","down":"true","branchedeast":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"false","down":"true","branchedwest":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"false","down":"true","branchedup":"true"},
+          {"north":"false","south":"false","east":"false","west":"false","up":"false","down":"true","brancheddown":"true"}
+        ]},"apply":{"model":"lush:block/stripped_fir_branch_closed_down"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"false","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"false","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_east"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"true","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_west"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"false","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_up"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"false","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_down"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"false","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south_east"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"true","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south_west"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"false","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south_up"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"false","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_down"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"true","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_east_west"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"false","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_east_up"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"false","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_east_down"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_west_up"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_west_down"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_up_down"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"false","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"true","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_west"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"false","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_up"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"false","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_down"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"true","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_east_west"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"false","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_east_up"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"false","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_east_down"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_west_up"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_west_down"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_up_down"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"true","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south_east_west"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"false","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south_east_up"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"false","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_east_down"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south_west_up"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_west_down"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_up_down"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_east_west_up"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_east_west_down"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_east_up_down"}},
+        {"when":{"north":"false","south":"false","east":"false","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_west_up_down"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"true","up":"false","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east_west"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"false","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east_up"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"false","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east_down"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_west_up"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_west_down"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_up_down"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_east_west_up"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_east_west_down"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_east_up_down"}},
+        {"when":{"north":"true","south":"false","east":"false","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_west_up_down"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_south_east_west_up"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_east_west_down"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_east_up_down"}},
+        {"when":{"north":"false","south":"true","east":"false","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_west_up_down"}},
+        {"when":{"north":"false","south":"false","east":"true","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_east_west_up_down"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"true","up":"true","down":"false"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east_west_up"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"true","up":"false","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east_west_down"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"false","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east_up_down"}},
+        {"when":{"north":"true","south":"true","east":"false","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_west_up_down"}},
+        {"when":{"north":"true","south":"false","east":"true","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_east_west_up_down"}},
+        {"when":{"north":"false","south":"true","east":"true","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_south_east_west_up_down"}},
+        {"when":{"north":"true","south":"true","east":"true","west":"true","up":"true","down":"true"},"apply":{"model":"lush:block/stripped_fir_branch_north_south_east_west_up_down"}}
+    ]
 }

@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_branch_closed_south",
+	"textures": {
+		"particle": "lush:block/stripped_spruce_trunk",
+		"side": "lush:block/stripped_spruce_branch",
+		"wood": "lush:block/stripped_spruce_branch_left_right_down_up"
+	}
+}

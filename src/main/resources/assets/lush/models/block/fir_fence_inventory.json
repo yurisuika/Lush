@@ -1,8 +1,6 @@
 {
-  "parent": "block/template_fence_inventory",
+  "parent": "minecraft:block/fence_inventory",
   "textures": {
-		"rail": "lush:block/fir_fence_rail",
-		"top": "lush:block/fir_fence_top",
-		"texture": "lush:block/fir_fence"
-	}
+    "texture": "lush:block/fir_planks"
+  }
 }

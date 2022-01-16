@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_trunk_west_down",
+	"textures": {
+		"end": "lush:block/spruce_trunk_end",
+		"particle": "lush:block/spruce_trunk",
+		"side": "lush:block/spruce_trunk",
+		"sideLD": "lush:block/spruce_trunk_left_down"
+	}
+}

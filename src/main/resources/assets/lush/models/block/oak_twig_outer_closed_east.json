@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_twig_outer_closed_east",
+	"textures": {
+		"wood": "lush:block/oak_twig_left_right_down_up",
+		"particle": "lush:block/oak_trunk",
+		"side": "lush:block/oak_twig"
+	}
+}

@@ -1,7 +1,7 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "lush:block/stripped_fir_wood",
-        "side": "lush:block/stripped_fir_log"
-    }
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lush:block/stripped_fir_log",
+    "side": "lush:block/stripped_fir_log"
+  }
 }

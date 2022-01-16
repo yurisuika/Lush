@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "lush:stripped_acacia_trunk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:acacia_planks",
+    "count": 4
+  }
+}

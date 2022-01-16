@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_branch_south_east_up_down",
+	"textures": {
+		"end": "lush:block/jungle_branch_end",
+		"particle": "lush:block/jungle_trunk",
+		"sideLRD": "lush:block/jungle_branch_left_right_down",
+		"sideLRU": "lush:block/jungle_branch_left_right_up"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_branch_closed_west",
+	"textures": {
+		"particle": "lush:block/birch_trunk",
+		"side": "lush:block/birch_branch",
+		"wood": "lush:block/birch_branch_left_right_down_up"
+	}
+}

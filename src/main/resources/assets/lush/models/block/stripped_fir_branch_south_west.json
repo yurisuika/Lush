@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_branch_south_west",
+	"textures": {
+		"end": "lush:block/stripped_fir_branch_end",
+		"particle": "lush:block/stripped_fir_trunk",
+		"side": "lush:block/stripped_fir_branch",
+		"sideLD": "lush:block/stripped_fir_branch_left_down"
+	}
+}

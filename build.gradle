@@ -7,7 +7,8 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
-version = project.mod_version
+//version = project.mod_version
+version = "${minecraft_version}-${mod_version}"
 group = project.maven_group
 
 repositories {
@@ -16,6 +17,7 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+	maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -28,6 +30,9 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	modCompileOnly "com.github.yurisuika:Seasons:Fabric-1.18-SNAPSHOT"
+	modCompileOnly "com.github.yurisuika:Catherine:Fabric-1.18-SNAPSHOT"
 }
 
 processResources {

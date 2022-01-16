@@ -1,0 +1,10 @@
+{
+	"parent": "lush:block/template_branch_east_up_down",
+	"textures": {
+		"end": "lush:block/stripped_birch_branch_end",
+		"particle": "lush:block/stripped_birch_trunk",
+		"side": "lush:block/stripped_birch_branch",
+		"sideLRU": "lush:block/stripped_birch_branch_left_right_up",
+		"sideRDU": "lush:block/stripped_birch_branch_right_down_up"
+	}
+}

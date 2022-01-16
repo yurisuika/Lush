@@ -1,5 +1,6 @@
 package com.yurisuika.lush.block;
 
+import com.google.common.collect.Iterators;
 import com.yurisuika.lush.tag.ModBlockTags;
 import net.minecraft.block.*;
 import net.minecraft.entity.ai.pathing.NavigationType;
@@ -8,6 +9,7 @@ import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager.Builder;
@@ -16,25 +18,26 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.tag.BlockTags;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Util;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.*;
+import org.jetbrains.annotations.Nullable;
 
-public class BranchBlock extends ConnectingBlock implements Waterloggable {
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Random;
+import java.util.function.Predicate;
+import java.util.stream.Stream;
+
+public class BranchBlock extends BranchedConnectingBlock implements Waterloggable {
 
     private final Block strippedBlock;
 
-    public static final BooleanProperty NORTHTWIG = BooleanProperty.of("northtwig");
-    public static final BooleanProperty EASTTWIG = BooleanProperty.of("easttwig");
-    public static final BooleanProperty SOUTHTWIG = BooleanProperty.of("southtwig");
-    public static final BooleanProperty WESTTWIG = BooleanProperty.of("westtwig");
-    public static final BooleanProperty UPTWIG = BooleanProperty.of("uptwig");
-    public static final BooleanProperty DOWNTWIG = BooleanProperty.of("downtwig");
-
     public static BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    protected BranchBlock(Block strippedBlock, Settings settings) {
+    public BranchBlock(Block strippedBlock, Settings settings) {
         super(0.25F, settings);
         this.strippedBlock = strippedBlock;
         this.setDefaultState(this.stateManager.getDefaultState()
@@ -45,12 +48,12 @@ public class BranchBlock extends ConnectingBlock implements Waterloggable {
                 .with(UP, false)
                 .with(DOWN, false)
                 .with(WATERLOGGED, false)
-                .with(NORTHTWIG, false)
-                .with(EASTTWIG, false)
-                .with(SOUTHTWIG, false)
-                .with(WESTTWIG, false)
-                .with(UPTWIG, false)
-                .with(DOWNTWIG, false)
+                .with(BRANCHEDNORTH, false)
+                .with(BRANCHEDEAST, false)
+                .with(BRANCHEDSOUTH, false)
+                .with(BRANCHEDWEST, false)
+                .with(BRANCHEDUP, false)
+                .with(BRANCHEDDOWN, false)
         );
     }
 
@@ -66,13 +69,19 @@ public class BranchBlock extends ConnectingBlock implements Waterloggable {
         BlockState blockStateE = world.getBlockState(pos.east());
         BlockState blockStateS = world.getBlockState(pos.south());
         BlockState blockStateW = world.getBlockState(pos.west());
-        boolean dirt = blockStateD.isIn(BlockTags.DIRT);
-        boolean logD = blockStateD.isIn(BlockTags.LOGS_THAT_BURN);
-        boolean logU = blockStateU.isIn(BlockTags.LOGS_THAT_BURN);
-        boolean logN = blockStateN.isIn(BlockTags.LOGS_THAT_BURN);
-        boolean logE = blockStateE.isIn(BlockTags.LOGS_THAT_BURN);
-        boolean logS = blockStateS.isIn(BlockTags.LOGS_THAT_BURN);
-        boolean logW = blockStateW.isIn(BlockTags.LOGS_THAT_BURN);
+        boolean dirtD = blockStateD.isIn(BlockTags.DIRT);
+        boolean trunkD = blockStateD.isIn(ModBlockTags.TRUNKS);
+        boolean trunkU = blockStateU.isIn(ModBlockTags.TRUNKS);
+        boolean trunkN = blockStateN.isIn(ModBlockTags.TRUNKS);
+        boolean trunkE = blockStateE.isIn(ModBlockTags.TRUNKS);
+        boolean trunkS = blockStateS.isIn(ModBlockTags.TRUNKS);
+        boolean trunkW = blockStateW.isIn(ModBlockTags.TRUNKS);
+        boolean branchD = blockStateD.isIn(ModBlockTags.BRANCHES);
+        boolean branchU = blockStateU.isIn(ModBlockTags.BRANCHES);
+        boolean branchN = blockStateN.isIn(ModBlockTags.BRANCHES);
+        boolean branchE = blockStateE.isIn(ModBlockTags.BRANCHES);
+        boolean branchS = blockStateS.isIn(ModBlockTags.BRANCHES);
+        boolean branchW = blockStateW.isIn(ModBlockTags.BRANCHES);
         boolean twigD = blockStateD.isIn(ModBlockTags.TWIGS);
         boolean twigU = blockStateU.isIn(ModBlockTags.TWIGS);
         boolean twigN = blockStateN.isIn(ModBlockTags.TWIGS);
@@ -80,43 +89,22 @@ public class BranchBlock extends ConnectingBlock implements Waterloggable {
         boolean twigS = blockStateS.isIn(ModBlockTags.TWIGS);
         boolean twigW = blockStateW.isIn(ModBlockTags.TWIGS);
         return this.getDefaultState()
-                .with(DOWN, blockStateD.isOf(this) || logD || dirt)
-                .with(UP, blockStateU.isOf(this) || logU)
-                .with(NORTH, blockStateN.isOf(this) || logN)
-                .with(EAST, blockStateE.isOf(this) || logE)
-                .with(SOUTH, blockStateS.isOf(this) || logS)
-                .with(WEST, blockStateW.isOf(this) || logW)
-                .with(DOWNTWIG, twigD)
-                .with(UPTWIG, twigU)
-                .with(NORTHTWIG, twigN)
-                .with(EASTTWIG, twigE)
-                .with(SOUTHTWIG, twigS)
-                .with(WESTTWIG, twigW);
+                .with(DOWN, trunkD || branchD || dirtD)
+                .with(UP, trunkU || branchU)
+                .with(NORTH, trunkN || branchN)
+                .with(EAST, trunkE || branchE)
+                .with(SOUTH, trunkS || branchS)
+                .with(WEST, trunkW || branchW)
+                .with(BRANCHEDDOWN, twigD)
+                .with(BRANCHEDUP, twigU)
+                .with(BRANCHEDNORTH, twigN)
+                .with(BRANCHEDEAST, twigE)
+                .with(BRANCHEDSOUTH, twigS)
+                .with(BRANCHEDWEST, twigW);
     }
 
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
-//        if (neighborState.isIn(ModBlockTags.TWIGS) && direction == Direction.NORTH) {
-//            return state.with(NORTHTWIG, true);
-//        }
-//        if (neighborState.isIn(ModBlockTags.TWIGS) && direction == Direction.SOUTH) {
-//            return state.with(SOUTHTWIG, true);
-//        }
-//        if (neighborState.isIn(ModBlockTags.TWIGS) && direction == Direction.EAST) {
-//            return state.with(EASTTWIG, true);
-//        }
-//        if (neighborState.isIn(ModBlockTags.TWIGS) && direction == Direction.WEST) {
-//            return state.with(WESTTWIG, true);
-//        }
-//        if (neighborState.isIn(ModBlockTags.TWIGS) && direction == Direction.UP) {
-//            return state.with(UPTWIG, true);
-//        }
-//        if (neighborState.isIn(ModBlockTags.TWIGS) && direction == Direction.DOWN) {
-//            return state.with(DOWNTWIG, true);
-//        }
         if (state.canPlaceAt(world, pos)) {
-//            Block neighborBlock = neighborState.getBlock();
-//            boolean flag = neighborState.isIn(BlockTags.LOGS_THAT_BURN) || neighborBlock == this || direction == Direction.DOWN && neighborState.isIn(BlockTags.DIRT);
-//            return state.with(FACING_PROPERTIES.get(direction), flag);
             BlockState blockStateD = world.getBlockState(pos.down());
             BlockState blockStateU = world.getBlockState(pos.up());
             BlockState blockStateN = world.getBlockState(pos.north());
@@ -124,33 +112,39 @@ public class BranchBlock extends ConnectingBlock implements Waterloggable {
             BlockState blockStateS = world.getBlockState(pos.south());
             BlockState blockStateW = world.getBlockState(pos.west());
             FluidState fluidState = world.getFluidState(pos);
-            boolean dirt = blockStateD.isIn(BlockTags.DIRT);
-            boolean logD = blockStateD.isIn(BlockTags.LOGS_THAT_BURN);
-            boolean logU = blockStateU.isIn(BlockTags.LOGS_THAT_BURN);
-            boolean logN = blockStateN.isIn(BlockTags.LOGS_THAT_BURN);
-            boolean logE = blockStateE.isIn(BlockTags.LOGS_THAT_BURN);
-            boolean logS = blockStateS.isIn(BlockTags.LOGS_THAT_BURN);
-            boolean logW = blockStateW.isIn(BlockTags.LOGS_THAT_BURN);
+            boolean water = fluidState.isStill();
+            boolean dirtD = blockStateD.isIn(BlockTags.DIRT);
+            boolean trunkD = blockStateD.isIn(ModBlockTags.TRUNKS);
+            boolean trunkU = blockStateU.isIn(ModBlockTags.TRUNKS);
+            boolean trunkN = blockStateN.isIn(ModBlockTags.TRUNKS);
+            boolean trunkE = blockStateE.isIn(ModBlockTags.TRUNKS);
+            boolean trunkS = blockStateS.isIn(ModBlockTags.TRUNKS);
+            boolean trunkW = blockStateW.isIn(ModBlockTags.TRUNKS);
+            boolean branchD = blockStateD.isIn(ModBlockTags.BRANCHES);
+            boolean branchU = blockStateU.isIn(ModBlockTags.BRANCHES);
+            boolean branchN = blockStateN.isIn(ModBlockTags.BRANCHES);
+            boolean branchE = blockStateE.isIn(ModBlockTags.BRANCHES);
+            boolean branchS = blockStateS.isIn(ModBlockTags.BRANCHES);
+            boolean branchW = blockStateW.isIn(ModBlockTags.BRANCHES);
             boolean twigD = blockStateD.isIn(ModBlockTags.TWIGS);
             boolean twigU = blockStateU.isIn(ModBlockTags.TWIGS);
             boolean twigN = blockStateN.isIn(ModBlockTags.TWIGS);
             boolean twigE = blockStateE.isIn(ModBlockTags.TWIGS);
             boolean twigS = blockStateS.isIn(ModBlockTags.TWIGS);
             boolean twigW = blockStateW.isIn(ModBlockTags.TWIGS);
-            boolean water = fluidState.isStill();
             return this.getDefaultState()
-                    .with(DOWN, blockStateD.isOf(this) || logD || dirt)
-                    .with(UP, blockStateU.isOf(this) || logU)
-                    .with(NORTH, blockStateN.isOf(this) || logN)
-                    .with(EAST, blockStateE.isOf(this) || logE)
-                    .with(SOUTH, blockStateS.isOf(this) || logS)
-                    .with(WEST, blockStateW.isOf(this) || logW)
-                    .with(DOWNTWIG, twigD)
-                    .with(UPTWIG, twigU)
-                    .with(NORTHTWIG, twigN)
-                    .with(EASTTWIG, twigE)
-                    .with(SOUTHTWIG, twigS)
-                    .with(WESTTWIG, twigW)
+                    .with(DOWN, trunkD || branchD || dirtD)
+                    .with(UP, trunkU || branchU)
+                    .with(NORTH, trunkN || branchN)
+                    .with(EAST, trunkE || branchE)
+                    .with(SOUTH, trunkS || branchS)
+                    .with(WEST, trunkW || branchW)
+                    .with(BRANCHEDDOWN, twigD)
+                    .with(BRANCHEDUP, twigU)
+                    .with(BRANCHEDNORTH, twigN)
+                    .with(BRANCHEDEAST, twigE)
+                    .with(BRANCHEDSOUTH, twigS)
+                    .with(BRANCHEDWEST, twigW)
                     .with(WATERLOGGED, water);
         }
         else {
@@ -166,50 +160,44 @@ public class BranchBlock extends ConnectingBlock implements Waterloggable {
         return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }
 
+    public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+        if (!state.canPlaceAt(world, pos)) {
+            world.breakBlock(pos, true);
+        }
+
+    }
+
+    public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
+        BlockState blockStateD = world.getBlockState(pos.down());
+        BlockState blockStateU = world.getBlockState(pos.up());
+        BlockState blockStateN = world.getBlockState(pos.north());
+        BlockState blockStateE = world.getBlockState(pos.east());
+        BlockState blockStateS = world.getBlockState(pos.south());
+        BlockState blockStateW = world.getBlockState(pos.west());
+        boolean dirtD = blockStateD.isIn(BlockTags.DIRT);
+        boolean trunkD = blockStateD.isIn(ModBlockTags.TRUNKS);
+        boolean trunkU = blockStateU.isIn(ModBlockTags.TRUNKS);
+        boolean trunkN = blockStateN.isIn(ModBlockTags.TRUNKS);
+        boolean trunkE = blockStateE.isIn(ModBlockTags.TRUNKS);
+        boolean trunkS = blockStateS.isIn(ModBlockTags.TRUNKS);
+        boolean trunkW = blockStateW.isIn(ModBlockTags.TRUNKS);
+        boolean branchD = blockStateD.isIn(ModBlockTags.BRANCHES);
+        boolean branchU = blockStateU.isIn(ModBlockTags.BRANCHES);
+        boolean branchN = blockStateN.isIn(ModBlockTags.BRANCHES);
+        boolean branchE = blockStateE.isIn(ModBlockTags.BRANCHES);
+        boolean branchS = blockStateS.isIn(ModBlockTags.BRANCHES);
+        boolean branchW = blockStateW.isIn(ModBlockTags.BRANCHES);
+
+        return dirtD || trunkD || trunkU || trunkN || trunkE || trunkS || trunkW || branchD || branchU || branchN || branchE || branchS || branchW;
+    }
+
     public FluidState getFluidState(BlockState state) {
         return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
     }
 
-//    public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
-//        BlockState blockState = world.getBlockState(pos.down());
-//        boolean bl = !world.getBlockState(pos.up()).isAir() && !blockState.isAir();
-//        Iterator var6 = Type.HORIZONTAL.iterator();
-//
-//        BlockState blockState3;
-//        do {
-//            BlockPos blockPos;
-//            BlockState blockState2;
-//            do {
-//                if (!var6.hasNext()) {
-//                    return blockState.isOf(this) || blockState.isOf(Blocks.GRASS_BLOCK) || blockState.isOf(Blocks.OAK_LOG);
-//                }
-//
-//                Direction direction = (Direction)var6.next();
-//                blockPos = pos.offset(direction);
-//                blockState2 = world.getBlockState(blockPos);
-//            } while(!blockState2.isOf(this));
-//
-//            if (bl) {
-//                return false;
-//            }
-//
-//            blockState3 = world.getBlockState(blockPos.down());
-//        } while(!blockState3.isOf(this) && !blockState3.isOf(Blocks.GRASS_BLOCK));
-//
-//        return true;
-//    }
-
-//    @Override
-//    public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-//        if (!state.canPlaceAt(world, pos)) {
-//            world.breakBlock(pos, true);
-//        }
-//    }
-
-
     @Override
     protected void appendProperties(Builder<Block, BlockState> builder) {
-        builder.add(NORTH, EAST, SOUTH, WEST, UP, DOWN, WATERLOGGED, NORTHTWIG, EASTTWIG, SOUTHTWIG, WESTTWIG, UPTWIG, DOWNTWIG);
+        builder.add(NORTH, EAST, SOUTH, WEST, UP, DOWN, WATERLOGGED, BRANCHEDNORTH, BRANCHEDEAST, BRANCHEDSOUTH, BRANCHEDWEST, BRANCHEDUP, BRANCHEDDOWN);
     }
 
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
@@ -231,12 +219,12 @@ public class BranchBlock extends ConnectingBlock implements Waterloggable {
                     .with(UP, state.get(UP))
                     .with(DOWN, state.get(DOWN))
                     .with(WATERLOGGED, state.get(WATERLOGGED))
-                    .with(NORTHTWIG, state.get(NORTHTWIG))
-                    .with(EASTTWIG, state.get(EASTTWIG))
-                    .with(SOUTHTWIG, state.get(SOUTHTWIG))
-                    .with(WESTTWIG, state.get(WESTTWIG))
-                    .with(UPTWIG, state.get(UPTWIG))
-                    .with(DOWNTWIG, state.get(DOWNTWIG))
+                    .with(BRANCHEDNORTH, state.get(BRANCHEDNORTH))
+                    .with(BRANCHEDEAST, state.get(BRANCHEDEAST))
+                    .with(BRANCHEDSOUTH, state.get(BRANCHEDSOUTH))
+                    .with(BRANCHEDWEST, state.get(BRANCHEDWEST))
+                    .with(BRANCHEDUP, state.get(BRANCHEDUP))
+                    .with(BRANCHEDDOWN, state.get(BRANCHEDDOWN))
             );
 
             return ActionResult.SUCCESS;

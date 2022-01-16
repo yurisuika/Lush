@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_branch_north_up",
+	"textures": {
+		"end": "lush:block/spruce_branch_end",
+		"particle": "lush:block/spruce_trunk",
+		"side": "lush:block/spruce_branch",
+		"sideRU": "lush:block/spruce_branch_right_up"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_twig_outer_closed_west",
+	"textures": {
+		"wood": "lush:block/stripped_acacia_twig_left_right_down_up",
+		"particle": "lush:block/stripped_acacia_trunk",
+		"side": "lush:block/stripped_acacia_twig"
+	}
+}

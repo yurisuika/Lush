@@ -6,7 +6,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lush:oak_branch"
+          "name": "minecraft:stick",
+          "count": 4
         }
       ],
       "conditions": [

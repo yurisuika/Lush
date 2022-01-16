@@ -6,7 +6,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lush:oak_twig"
+          "name": "minecraft:stick",
+          "count": 2
         }
       ],
       "conditions": [

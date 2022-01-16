@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlockTags {
 
+    public static final Tag<Block> TRUNKS = TagFactory.BLOCK.create((new Identifier("lush", "trunks")));
     public static final Tag<Block> BRANCHES = TagFactory.BLOCK.create((new Identifier("lush", "branches")));
     public static final Tag<Block> TWIGS = TagFactory.BLOCK.create((new Identifier("lush", "twigs")));
 

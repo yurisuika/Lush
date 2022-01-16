@@ -1,5 +1,10 @@
 {
-  "itemGroup.lush.lush": "Lush",
+  "itemGroup.lush.oak": "Temperate",
+  "itemGroup.lush.spruce": "Boreal",
+  "itemGroup.lush.birch": "Hemi-Boreal",
+  "itemGroup.lush.jungle": "Tropical",
+  "itemGroup.lush.acacia": "Arid",
+  "itemGroup.lush.dark_oak": "Sub-Tropical",
 
   "item.minecraft.acacia_boat": "Acacia Boat",
   "block.minecraft.acacia_button": "Acacia Button",
@@ -20,8 +25,10 @@
   "block.minecraft.stripped_acacia_log": "Stripped Acacia Log",
   "block.minecraft.stripped_acacia_wood": "Stripped Acacia Wood",
   "block.minecraft.potted_acacia_sapling": "Potted Acacia Sapling",
+  "block.lush.acacia_trunk": "Acacia Trunk",
   "block.lush.acacia_branch": "Acacia Branch",
   "block.lush.acacia_twig": "Acacia Twig",
+  "block.lush.stripped_acacia_trunk": "Stripped Acacia Trunk",
   "block.lush.stripped_acacia_branch": "Stripped Acacia Branch",
   "block.lush.stripped_acacia_twig": "Stripped Acacia Twig",
 
@@ -44,8 +51,10 @@
   "block.minecraft.stripped_birch_log": "Stripped Birch Log",
   "block.minecraft.stripped_birch": "Stripped Birch Wood",
   "block.minecraft.potted_birch_sapling": "Potted Birch Sapling",
+  "block.lush.birch_trunk": "Birch Trunk",
   "block.lush.birch_branch": "Birch Branch",
   "block.lush.birch_twig": "Birch Twig",
+  "block.lush.stripped_birch_trunk": "Stripped Birch Trunk",
   "block.lush.stripped_birch_branch": "Stripped Birch Branch",
   "block.lush.stripped_birch_twig": "Stripped Birch Twig",
 
@@ -68,8 +77,10 @@
   "block.minecraft.stripped_dark_oak_log": "Stripped Ebony Log",
   "block.minecraft.stripped_dark_oak_wood": "Stripped Ebony Wood",
   "block.minecraft.potted_dark_oak_sapling": "Potted Ebony Sapling",
+  "block.lush.dark_oak_trunk": "Ebony Trunk",
   "block.lush.dark_oak_branch": "Ebony Branch",
   "block.lush.dark_oak_twig": "Ebony Twig",
+  "block.lush.stripped_dark_oak_trunk": "Stripped Ebony Trunk",
   "block.lush.stripped_dark_oak_branch": "Stripped Ebony Branch",
   "block.lush.stripped_dark_oak_twig": "Stripped Ebony Twig",
 
@@ -92,8 +103,10 @@
   "block.lush.stripped_fir_log": "Stripped Fir Log",
   "block.lush.stripped_fir_wood": "Stripped Fir Wood",
   "block.lush.potted_fir_sapling": "Potted Fir Sapling",
+  "block.lush.fir_trunk": "Fir Trunk",
   "block.lush.fir_branch": "Fir Branch",
   "block.lush.fir_twig": "Fir Twig",
+  "block.lush.stripped_fir_trunk": "Stripped Fir Trunk",
   "block.lush.stripped_fir_branch": "Stripped Fir Branch",
   "block.lush.stripped_fir_twig": "Stripped Fir Twig",
 
@@ -116,8 +129,10 @@
   "block.minecraft.stripped_jungle_log": "Stripped Banyan Log",
   "block.minecraft.stripped_jungle_wood": "Stripped Banyan Wood",
   "block.minecraft.potted_jungle_sapling": "Potted Banyan Sapling",
+  "block.lush.jungle_trunk": "Banyan Trunk",
   "block.lush.jungle_branch": "Banyan Branch",
   "block.lush.jungle_twig": "Banyan Twig",
+  "block.lush.stripped_jungle_trunk": "Stripped Banyan Trunk",
   "block.lush.stripped_jungle_branch": "Stripped Banyan Branch",
   "block.lush.stripped_jungle_twig": "Stripped Banyan Twig",
 
@@ -140,8 +155,10 @@
   "block.minecraft.stripped_oak_log": "Stripped Oak Log",
   "block.minecraft.stripped_oak_wood": "Stripped Oak Wood",
   "block.minecraft.potted_oak_sapling": "Potted Oak Sapling",
+  "block.lush.oak_trunk": "Oak Trunk",
   "block.lush.oak_branch": "Oak Branch",
   "block.lush.oak_twig": "Oak Twig",
+  "block.lush.stripped_oak_trunk": "Stripped Oak Trunk",
   "block.lush.stripped_oak_branch": "Stripped Oak Branch",
   "block.lush.stripped_oak_twig": "Stripped Oak Twig",
 
@@ -164,8 +181,10 @@
   "block.minecraft.stripped_spruce_log": "Stripped Spruce Log",
   "block.minecraft.stripped_spruce_wood": "Stripped Spruce Wood",
   "block.minecraft.potted_spruce_sapling": "Potted Spruce Sapling",
+  "block.lush.spruce_trunk": "Spruce Trunk",
   "block.lush.spruce_branch": "Spruce Branch",
   "block.lush.spruce_twig": "Spruce Twig",
+  "block.lush.stripped_spruce_trunk": "Stripped Spruce Trunk",
   "block.lush.stripped_spruce_branch": "Stripped Spruce Branch",
   "block.lush.stripped_spruce_twig": "Stripped Spruce Twig"
 

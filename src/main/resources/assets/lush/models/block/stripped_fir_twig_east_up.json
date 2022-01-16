@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_twig_east_up",
+	"textures": {
+		"end": "lush:block/stripped_fir_twig_end",
+		"particle": "lush:block/stripped_fir_trunk",
+		"side": "lush:block/stripped_fir_twig",
+		"sideRU": "lush:block/stripped_fir_twig_right_up"
+	}
+}

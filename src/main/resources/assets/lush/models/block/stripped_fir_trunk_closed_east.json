@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_trunk_closed_east",
+	"textures": {
+		"end": "lush:block/stripped_fir_trunk_end",
+		"particle": "lush:block/stripped_fir_trunk",
+		"side": "lush:block/stripped_fir_trunk",
+		"wood": "lush:block/stripped_fir_trunk_left_right_down_up"
+	}
+}

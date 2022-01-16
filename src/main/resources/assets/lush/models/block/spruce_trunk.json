@@ -1,0 +1,7 @@
+{
+	"parent": "lush:block/template_trunk",
+	"textures": {
+		"particle": "lush:block/spruce_trunk",
+		"wood": "lush:block/spruce_trunk_left_right_down_up"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "lush:block/template_branch",
+	"textures": {
+		"particle": "lush:block/stripped_fir_trunk",
+		"wood": "lush:block/stripped_fir_branch_left_right_down_up"
+	}
+}

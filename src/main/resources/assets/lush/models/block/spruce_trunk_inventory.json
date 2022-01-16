@@ -1,0 +1,7 @@
+{
+	"parent": "lush:block/template_trunk_inventory",
+	"textures": {
+		"end": "lush:block/spruce_trunk_end",
+		"side": "lush:block/spruce_trunk"
+	}
+}

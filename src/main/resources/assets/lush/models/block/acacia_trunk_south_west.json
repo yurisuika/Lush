@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_trunk_south_west",
+	"textures": {
+		"end": "lush:block/acacia_trunk_end",
+		"particle": "lush:block/acacia_trunk",
+		"side": "lush:block/acacia_trunk",
+		"sideLD": "lush:block/acacia_trunk_left_down"
+	}
+}

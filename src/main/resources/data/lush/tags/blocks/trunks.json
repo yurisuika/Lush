@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#lush:oak_trunks",
+    "#lush:spruce_trunks",
+    "#lush:birch_trunks",
+    "#lush:jungle_trunks",
+    "#lush:dark_oak_trunks",
+    "#lush:acacia_trunks",
+
+    "#lush:fir_trunks"
+    ]
+}

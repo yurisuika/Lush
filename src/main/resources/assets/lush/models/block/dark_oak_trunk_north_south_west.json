@@ -1,0 +1,10 @@
+{
+	"parent": "lush:block/template_trunk_north_south_west",
+	"textures": {
+		"end": "lush:block/dark_oak_trunk_end",
+		"particle": "lush:block/dark_oak_trunk",
+		"side": "lush:block/dark_oak_trunk",
+		"sideLDU": "lush:block/dark_oak_trunk_left_down_up",
+		"sideLRD": "lush:block/dark_oak_trunk_left_right_down"
+	}
+}

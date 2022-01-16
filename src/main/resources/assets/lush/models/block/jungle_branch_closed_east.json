@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_branch_closed_east",
+	"textures": {
+		"particle": "lush:block/jungle_trunk",
+		"side": "lush:block/jungle_branch",
+		"wood": "lush:block/jungle_branch_left_right_down_up"
+	}
+}

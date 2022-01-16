@@ -1,0 +1,7 @@
+{
+	"parent": "lush:block/template_trunk_inventory",
+	"textures": {
+		"end": "lush:block/stripped_jungle_trunk_end",
+		"side": "lush:block/stripped_jungle_trunk"
+	}
+}

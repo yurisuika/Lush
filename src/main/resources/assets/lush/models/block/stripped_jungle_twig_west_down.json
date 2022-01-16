@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_twig_west_down",
+	"textures": {
+		"end": "lush:block/stripped_jungle_twig_end",
+		"particle": "lush:block/stripped_jungle_trunk",
+		"side": "lush:block/stripped_jungle_twig",
+		"sideLD": "lush:block/stripped_jungle_twig_left_down"
+	}
+}

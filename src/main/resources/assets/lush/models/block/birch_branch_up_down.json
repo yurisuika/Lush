@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_branch_up_down",
+	"textures": {
+		"end": "lush:block/birch_branch_end",
+		"particle": "lush:block/birch_trunk",
+		"side": "lush:block/birch_branch"
+	}
+}

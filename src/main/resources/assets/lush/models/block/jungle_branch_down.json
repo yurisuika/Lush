@@ -1,7 +1,8 @@
 {
-  "parent": "lush:block/template_branch_down",
-  "textures": {
-    "log": "lush:block/jungle_branch",
-    "log_top": "lush:block/jungle_branch_top"
-  }
+	"parent": "lush:block/template_branch_down",
+	"textures": {
+		"end": "lush:block/jungle_branch_end",
+		"particle": "lush:block/jungle_trunk",
+		"side": "lush:block/jungle_branch"
+	}
 }

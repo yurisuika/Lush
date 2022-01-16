@@ -1,0 +1,8 @@
+{
+	"parent": "lush:block/template_trunk_north_south",
+	"textures": {
+		"end": "lush:block/fir_trunk_end",
+		"particle": "lush:block/fir_trunk",
+		"side": "lush:block/fir_trunk"
+	}
+}

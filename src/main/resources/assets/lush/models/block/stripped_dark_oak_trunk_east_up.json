@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_trunk_east_up",
+	"textures": {
+		"end": "lush:block/stripped_dark_oak_trunk_end",
+		"particle": "lush:block/stripped_dark_oak_trunk",
+		"side": "lush:block/stripped_dark_oak_trunk",
+		"sideRU": "lush:block/stripped_dark_oak_trunk_right_up"
+	}
+}

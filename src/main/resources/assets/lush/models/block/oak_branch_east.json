@@ -1,7 +1,8 @@
 {
-  "parent": "lush:block/template_branch_east",
-  "textures": {
-    "log": "lush:block/oak_branch",
-    "log_top": "lush:block/oak_branch_top"
-  }
+	"parent": "lush:block/template_branch_east",
+	"textures": {
+		"end": "lush:block/oak_branch_end",
+		"particle": "lush:block/oak_trunk",
+		"side": "lush:block/oak_branch"
+	}
 }

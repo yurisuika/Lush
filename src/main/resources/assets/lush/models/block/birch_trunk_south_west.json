@@ -1,0 +1,9 @@
+{
+	"parent": "lush:block/template_trunk_south_west",
+	"textures": {
+		"end": "lush:block/birch_trunk_end",
+		"particle": "lush:block/birch_trunk",
+		"side": "lush:block/birch_trunk",
+		"sideLD": "lush:block/birch_trunk_left_down"
+	}
+}

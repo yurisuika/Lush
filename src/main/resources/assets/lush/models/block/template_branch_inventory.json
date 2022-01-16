@@ -1,18 +1,15 @@
 {
-	"textures": {
-		"particle": "#log"
-	},
 	"elements": [
 		{
 			"from": [0, 4, 4],
 			"to": [16, 12, 12],
 			"faces": {
-				"north": {"uv": [4, 0, 12, 16], "rotation": 270, "texture": "#log"},
-				"east": {"uv": [0, 0, 8, 8], "texture": "#log_top"},
-				"south": {"uv": [4, 0, 12, 16], "rotation": 90, "texture": "#log"},
-				"west": {"uv": [0, 0, 8, 8], "texture": "#log_top"},
-				"up": {"uv": [4, 0, 12, 16], "rotation": 90, "texture": "#log"},
-				"down": {"uv": [4, 0, 12, 16], "rotation": 90, "texture": "#log"}
+				"north": {"uv": [4, 0, 12, 16], "rotation": 270, "texture": "#side"},
+				"east": {"uv": [4, 4, 12, 12], "texture": "#end"},
+				"south": {"uv": [4, 0, 12, 16], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [4, 4, 12, 12], "texture": "#end"},
+				"up": {"uv": [4, 0, 12, 16], "rotation": 90, "texture": "#side"},
+				"down": {"uv": [4, 0, 12, 16], "rotation": 90, "texture": "#side"}
 			}
 		}
 	],

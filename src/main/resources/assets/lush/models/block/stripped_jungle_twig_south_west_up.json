@@ -1,0 +1,10 @@
+{
+	"parent": "lush:block/template_twig_south_west_up",
+	"textures": {
+		"end": "lush:block/stripped_jungle_twig_end",
+		"particle": "lush:block/stripped_jungle_trunk",
+		"sideLD": "lush:block/stripped_jungle_twig_left_down",
+		"sideLU": "lush:block/stripped_jungle_twig_left_up",
+		"sideRD": "lush:block/stripped_jungle_twig_right_down"
+	}
+}

@@ -1,6 +1,6 @@
 package com.yurisuika.lush.mixin;
 
-import com.yurisuika.lush.block.ModBlocks;
+import com.yurisuika.lush.Lush;
 import com.yurisuika.lush.util.ModBoatType;
 import net.minecraft.block.Block;
 import net.minecraft.entity.vehicle.BoatEntity;
@@ -41,7 +41,7 @@ public class BoatTypeMixin {
         var types = new ArrayList<>(Arrays.asList(field_7724));
         var last = types.get(types.size() - 1);
 
-        var fir = newType("FIR", last.ordinal() + 1, ModBlocks.FIR_PLANKS, "fir");
+        var fir = newType("FIR", last.ordinal() + 1, Lush.FIR_PLANKS, "fir");
         ModBoatType.FIR = fir;
         types.add(fir);
 

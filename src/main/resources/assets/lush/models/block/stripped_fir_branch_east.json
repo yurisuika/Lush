@@ -1,7 +1,8 @@
 {
-  "parent": "lush:block/template_stripped_branch_east",
-  "textures": {
-    "log": "lush:block/stripped_fir_branch",
-    "log_top": "lush:block/stripped_fir_branch_top"
-  }
+	"parent": "lush:block/template_branch_east",
+	"textures": {
+		"end": "lush:block/stripped_fir_branch_end",
+		"particle": "lush:block/stripped_fir_trunk",
+		"side": "lush:block/stripped_fir_branch"
+	}
 }

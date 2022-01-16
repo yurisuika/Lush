@@ -1,7 +1,7 @@
 {
-  "parent": "lush:block/template_stripped_twig_inventory",
-  "textures": {
-    "log": "lush:block/stripped_oak_twig",
-    "log_top": "lush:block/stripped_oak_twig_top"
-  }
+	"parent": "lush:block/template_twig_inventory",
+	"textures": {
+		"end": "lush:block/stripped_oak_twig_end",
+		"side": "lush:block/stripped_oak_twig"
+	}
 }
