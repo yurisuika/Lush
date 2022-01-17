@@ -46,6 +46,11 @@ Stable releases of Lush ready to be consumed by the public!
 
 Lush requires *[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)* as a dependency!
 
+
+#### Credits
+
+*[Boats](https://github.com/nyuppo/fabric-boat-example)* and *[Signs](https://github.com/nyuppo/fabric-sign-example)* are thanks to nyuppo!
+
 #### Servers
 
 Join *`play.suikacraft.com`* to play on SuikaCraft today!
