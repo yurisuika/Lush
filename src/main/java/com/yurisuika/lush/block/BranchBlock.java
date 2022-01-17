@@ -1,6 +1,5 @@
 package com.yurisuika.lush.block;
 
-import com.google.common.collect.Iterators;
 import com.yurisuika.lush.tag.ModBlockTags;
 import net.minecraft.block.*;
 import net.minecraft.entity.ai.pathing.NavigationType;
@@ -18,18 +17,13 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.tag.BlockTags;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
-import net.minecraft.util.Util;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.*;
-import org.jetbrains.annotations.Nullable;
 
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Random;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 public class BranchBlock extends BranchedConnectingBlock implements Waterloggable {
 
@@ -190,6 +184,31 @@ public class BranchBlock extends BranchedConnectingBlock implements Waterloggabl
 
         return dirtD || trunkD || trunkU || trunkN || trunkE || trunkS || trunkW || branchD || branchU || branchN || branchE || branchS || branchW;
     }
+
+//    public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
+//
+//        Iterator iteratorH = Direction.Type.HORIZONTAL.iterator();
+//        Iterator iteratorV = Direction.Type.VERTICAL.iterator();
+//
+//        BlockState blockStateH;
+//        BlockState blockStateV;
+//        do {
+//            BlockPos blockPosH;
+//            BlockPos blockPosV;
+//            Direction directionH = (Direction)iteratorH.next();
+//            Direction directionV = (Direction)iteratorV.next();
+//            blockPosH = pos.offset(directionH);
+//            blockPosV = pos.offset(directionV);
+//            blockStateH = world.getBlockState(blockPosH);
+//            blockStateV = world.getBlockState(blockPosV);
+//
+//            if (!iteratorH.hasNext() || !iteratorV.hasNext()) {
+//                return blockStateV.isIn(BlockTags.DIRT) || blockStateV.isIn(ModBlockTags.BRANCHES) || blockStateH.isIn(ModBlockTags.BRANCHES) || blockStateV.isIn(ModBlockTags.TRUNKS) || blockStateH.isIn(ModBlockTags.TRUNKS);
+//            }
+//        }
+//        while(!blockStateV.isIn(BlockTags.DIRT));
+//        return true;
+//    }
 
     public FluidState getFluidState(BlockState state) {
         return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
