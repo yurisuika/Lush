@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_stairs"
+    "lush:alder_stairs",
+    "lush:apple_stairs",
+    "lush:ash_stairs",
+    "lush:aspen_stairs",
+    "lush:cedar_stairs",
+    "lush:cherry_stairs",
+    "lush:chestnut_stairs",
+    "lush:citrus_stairs",
+    "lush:cottonwood_stairs",
+    "lush:cypress_stairs",
+    "lush:ebony_stairs",
+    "lush:fir_stairs",
+    "lush:gum_stairs",
+    "lush:hawthorn_stairs",
+    "lush:hazel_stairs",
+    "lush:hemlock_stairs",
+    "lush:hickory_stairs",
+    "lush:juniper_stairs",
+    "lush:larch_stairs",
+    "lush:mahogany_stairs",
+    "lush:maple_stairs",
+    "lush:mesquite_stairs",
+    "lush:peach_stairs",
+    "lush:pear_stairs",
+    "lush:pine_stairs",
+    "lush:redwood_stairs",
+    "lush:rosewood_stairs",
+    "lush:teak_stairs",
+    "lush:walnut_stairs",
+    "lush:willow_stairs"
   ]
 }

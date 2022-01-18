@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:cottonwood_log"
+    }
+  },
+  "result": {
+    "item": "lush:cottonwood_wood",
+    "count": 3
+  }
+}

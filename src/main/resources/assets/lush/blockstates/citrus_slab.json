@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/citrus_slab" },
+        "type=top": { "model": "lush:block/citrus_slab_top" },
+        "type=double": { "model": "lush:block/citrus_planks" }
+    }
+}

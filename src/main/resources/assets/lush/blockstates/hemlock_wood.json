@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "lush:block/hemlock_wood" },
+        "axis=z": { "model": "lush:block/hemlock_wood", "x": 90 },
+        "axis=x": { "model": "lush:block/hemlock_wood", "x": 90, "y": 90 }
+    }
+}

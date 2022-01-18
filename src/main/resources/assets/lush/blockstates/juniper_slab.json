@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/juniper_slab" },
+        "type=top": { "model": "lush:block/juniper_slab_top" },
+        "type=double": { "model": "lush:block/juniper_planks" }
+    }
+}

@@ -1,7 +1,0 @@
-{
-	"parent": "lush:block/template_twig_north_south_east_west_up_down",
-	"textures": {
-		"end": "lush:block/acacia_twig_end",
-		"particle": "lush:block/acacia_trunk"
-	}
-}

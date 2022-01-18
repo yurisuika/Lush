@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":    { "model": "lush:block/walnut_log" },
+        "axis=z":     { "model": "lush:block/walnut_log", "x": 90 },
+        "axis=x":     { "model": "lush:block/walnut_log", "x": 90, "y": 90 }
+    }
+}

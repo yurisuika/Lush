@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:cottonwood_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:cottonwood_planks",
+    "count": 4
+  }
+}

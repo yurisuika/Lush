@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/pear_slab" },
+        "type=top": { "model": "lush:block/pear_slab_top" },
+        "type=double": { "model": "lush:block/pear_planks" }
+    }
+}

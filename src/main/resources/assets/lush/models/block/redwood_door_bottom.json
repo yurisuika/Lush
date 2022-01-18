@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "lush:block/redwood_door_top",
+    "bottom": "lush:block/redwood_door_bottom"
+  }
+}

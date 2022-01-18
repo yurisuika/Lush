@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lush:mesquite_log",
+    "lush:mesquite_wood",
+    "lush:stripped_mesquite_log",
+    "lush:stripped_mesquite_wood"
+  ]
+}

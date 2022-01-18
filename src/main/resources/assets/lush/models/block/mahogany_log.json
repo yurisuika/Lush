@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "lush:block/mahogany_log_top",
+        "side": "lush:block/mahogany_log"
+    }
+}

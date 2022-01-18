@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "lush:juniper_planks"
+    }
+  ],
+  "result": {
+    "item": "lush:juniper_button"
+  }
+}

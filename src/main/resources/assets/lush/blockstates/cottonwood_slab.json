@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/cottonwood_slab" },
+        "type=top": { "model": "lush:block/cottonwood_slab_top" },
+        "type=double": { "model": "lush:block/cottonwood_planks" }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/gum_slab" },
+        "type=top": { "model": "lush:block/gum_slab_top" },
+        "type=double": { "model": "lush:block/gum_planks" }
+    }
+}

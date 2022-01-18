@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "lush:hemlock_planks"
+    }
+  ],
+  "result": {
+    "item": "lush:hemlock_button"
+  }
+}

@@ -1,33 +1,36 @@
 {
   "replace": false,
   "values": [
-    "#lush:oak_trunks",
-    "#lush:oak_branches",
-    "#lush:oak_twigs",
-
-    "#lush:spruce_trunks",
-    "#lush:spruce_branches",
-    "#lush:spruce_twigs",
-
-    "#lush:birch_trunks",
-    "#lush:birch_branches",
-    "#lush:birch_twigs",
-
-    "#lush:jungle_trunks",
-    "#lush:jungle_branches",
-    "#lush:jungle_twigs",
-
-    "#lush:dark_oak_trunks",
-    "#lush:dark_oak_branches",
-    "#lush:dark_oak_twigs",
-
-    "#lush:acacia_trunks",
-    "#lush:acacia_branches",
-    "#lush:acacia_twigs",
-
+    "#lush:alder_logs",
+    "#lush:apple_logs",
+    "#lush:ash_logs",
+    "#lush:aspen_logs",
+    "#lush:cedar_logs",
+    "#lush:cherry_logs",
+    "#lush:chestnut_logs",
+    "#lush:citrus_logs",
+    "#lush:cottonwood_logs",
+    "#lush:cypress_logs",
+    "#lush:ebony_logs",
     "#lush:fir_logs",
-    "#lush:fir_trunks",
-    "#lush:fir_branches",
-    "#lush:fir_twigs"
+    "#lush:gum_logs",
+    "#lush:hawthorn_logs",
+    "#lush:hazel_logs",
+    "#lush:hemlock_logs",
+    "#lush:hickory_logs",
+    "#lush:juniper_logs",
+    "#lush:larch_logs",
+    "#lush:mahogany_logs",
+    "#lush:maple_logs",
+    "#lush:mesquite_logs",
+    "#lush:peach_logs",
+    "#lush:pear_logs",
+    "#lush:pine_logs",
+    "#lush:redwood_logs",
+    "#lush:rosewood_logs",
+    "#lush:teak_logs",
+    "#lush:walnut_logs",
+    "#lush:willow_logs",
+    "#lush:willow_logs"
   ]
 }

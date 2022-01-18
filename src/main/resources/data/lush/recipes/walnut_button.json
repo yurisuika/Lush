@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "lush:walnut_planks"
+    }
+  ],
+  "result": {
+    "item": "lush:walnut_button"
+  }
+}

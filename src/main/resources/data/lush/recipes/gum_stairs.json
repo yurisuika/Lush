@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:gum_planks"
+    }
+  },
+  "result": {
+    "item": "lush:gum_stairs",
+    "count": 4
+  }
+}

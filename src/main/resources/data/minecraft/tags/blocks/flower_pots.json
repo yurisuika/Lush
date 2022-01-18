@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:potted_fir_sapling"
+    "lush:potted_alder_sapling",
+    "lush:potted_apple_sapling",
+    "lush:potted_ash_sapling",
+    "lush:potted_aspen_sapling",
+    "lush:potted_cedar_sapling",
+    "lush:potted_cherry_sapling",
+    "lush:potted_chestnut_sapling",
+    "lush:potted_citrus_sapling",
+    "lush:potted_cottonwood_sapling",
+    "lush:potted_cypress_sapling",
+    "lush:potted_ebony_sapling",
+    "lush:potted_fir_sapling",
+    "lush:potted_gum_sapling",
+    "lush:potted_hawthorn_sapling",
+    "lush:potted_hazel_sapling",
+    "lush:potted_hemlock_sapling",
+    "lush:potted_hickory_sapling",
+    "lush:potted_juniper_sapling",
+    "lush:potted_larch_sapling",
+    "lush:potted_mahogany_sapling",
+    "lush:potted_maple_sapling",
+    "lush:potted_mesquite_sapling",
+    "lush:potted_peach_sapling",
+    "lush:potted_pear_sapling",
+    "lush:potted_pine_sapling",
+    "lush:potted_redwood_sapling",
+    "lush:potted_rosewood_sapling",
+    "lush:potted_teak_sapling",
+    "lush:potted_walnut_sapling",
+    "lush:potted_willow_sapling"
   ]
 }

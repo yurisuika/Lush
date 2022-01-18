@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:teak_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:teak_planks",
+    "count": 4
+  }
+}

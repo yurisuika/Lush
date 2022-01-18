@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:hemlock_planks"
+    }
+  },
+  "result": {
+    "item": "lush:hemlock_pressure_plate"
+  }
+}

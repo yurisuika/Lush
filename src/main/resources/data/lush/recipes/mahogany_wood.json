@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:mahogany_log"
+    }
+  },
+  "result": {
+    "item": "lush:mahogany_wood",
+    "count": 3
+  }
+}

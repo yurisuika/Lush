@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lush:block/cedar_log",
+    "side": "lush:block/cedar_log"
+  }
+}

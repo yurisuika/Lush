@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:ebony_planks"
+    }
+  },
+  "result": {
+    "item": "lush:ebony_pressure_plate"
+  }
+}

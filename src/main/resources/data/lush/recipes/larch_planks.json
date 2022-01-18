@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:larch_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:larch_planks",
+    "count": 4
+  }
+}

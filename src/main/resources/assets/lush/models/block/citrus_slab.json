@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "lush:block/citrus_planks",
+        "top": "lush:block/citrus_planks",
+        "side": "lush:block/citrus_planks"
+    }
+}

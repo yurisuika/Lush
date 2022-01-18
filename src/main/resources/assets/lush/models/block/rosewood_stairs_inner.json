@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "lush:block/rosewood_planks",
+        "top": "lush:block/rosewood_planks",
+        "side": "lush:block/rosewood_planks"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:maple_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:maple_planks",
+    "count": 4
+  }
+}

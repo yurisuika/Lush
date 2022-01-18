@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:larch_planks"
+    }
+  },
+  "result": {
+    "item": "lush:larch_pressure_plate"
+  }
+}

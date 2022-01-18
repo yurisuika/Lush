@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "lush:block/ebony_door_top",
+    "bottom": "lush:block/ebony_door_bottom"
+  }
+}

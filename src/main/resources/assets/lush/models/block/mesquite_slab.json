@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "lush:block/mesquite_planks",
+        "top": "lush:block/mesquite_planks",
+        "side": "lush:block/mesquite_planks"
+    }
+}

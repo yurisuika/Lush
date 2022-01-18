@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "lush:block/cypress_sign" }
+    }
+}

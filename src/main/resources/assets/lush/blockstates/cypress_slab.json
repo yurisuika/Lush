@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/cypress_slab" },
+        "type=top": { "model": "lush:block/cypress_slab_top" },
+        "type=double": { "model": "lush:block/cypress_planks" }
+    }
+}

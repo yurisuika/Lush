@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "lush:block/hawthorn_log_top",
+        "side": "lush:block/hawthorn_log"
+    }
+}

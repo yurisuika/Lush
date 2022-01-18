@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:peach_planks"
+    }
+  },
+  "result": {
+    "item": "lush:peach_boat"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:teak_planks"
+    }
+  },
+  "result": {
+    "item": "lush:teak_trapdoor",
+    "count": 2
+  }
+}

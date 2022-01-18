@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:gum_planks"
+    }
+  },
+  "result": {
+    "item": "lush:gum_pressure_plate"
+  }
+}

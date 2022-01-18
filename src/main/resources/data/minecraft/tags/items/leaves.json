@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_leaves"
+    "lush:alder_leaves",
+    "lush:apple_leaves",
+    "lush:ash_leaves",
+    "lush:aspen_leaves",
+    "lush:cedar_leaves",
+    "lush:cherry_leaves",
+    "lush:chestnut_leaves",
+    "lush:citrus_leaves",
+    "lush:cottonwood_leaves",
+    "lush:cypress_leaves",
+    "lush:ebony_leaves",
+    "lush:fir_leaves",
+    "lush:gum_leaves",
+    "lush:hawthorn_leaves",
+    "lush:hazel_leaves",
+    "lush:hemlock_leaves",
+    "lush:hickory_leaves",
+    "lush:juniper_leaves",
+    "lush:larch_leaves",
+    "lush:mahogany_leaves",
+    "lush:maple_leaves",
+    "lush:mesquite_leaves",
+    "lush:peach_leaves",
+    "lush:pear_leaves",
+    "lush:pine_leaves",
+    "lush:redwood_leaves",
+    "lush:rosewood_leaves",
+    "lush:teak_leaves",
+    "lush:walnut_leaves",
+    "lush:willow_leaves"
   ]
 }

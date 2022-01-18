@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:juniper_log"
+    }
+  },
+  "result": {
+    "item": "lush:juniper_wood",
+    "count": 3
+  }
+}

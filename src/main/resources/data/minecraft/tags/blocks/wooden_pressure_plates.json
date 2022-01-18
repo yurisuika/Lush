@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_pressure_plate"
+    "lush:alder_pressure_plate",
+    "lush:apple_pressure_plate",
+    "lush:ash_pressure_plate",
+    "lush:aspen_pressure_plate",
+    "lush:cedar_pressure_plate",
+    "lush:cherry_pressure_plate",
+    "lush:chestnut_pressure_plate",
+    "lush:citrus_pressure_plate",
+    "lush:cottonwood_pressure_plate",
+    "lush:cypress_pressure_plate",
+    "lush:ebony_pressure_plate",
+    "lush:fir_pressure_plate",
+    "lush:gum_pressure_plate",
+    "lush:hawthorn_pressure_plate",
+    "lush:hazel_pressure_plate",
+    "lush:hemlock_pressure_plate",
+    "lush:hickory_pressure_plate",
+    "lush:juniper_pressure_plate",
+    "lush:larch_pressure_plate",
+    "lush:mahogany_pressure_plate",
+    "lush:maple_pressure_plate",
+    "lush:mesquite_pressure_plate",
+    "lush:peach_pressure_plate",
+    "lush:pear_pressure_plate",
+    "lush:pine_pressure_plate",
+    "lush:redwood_pressure_plate",
+    "lush:rosewood_pressure_plate",
+    "lush:teak_pressure_plate",
+    "lush:walnut_pressure_plate",
+    "lush:willow_pressure_plate"
   ]
 }

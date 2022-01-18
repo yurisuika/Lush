@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lush:block/stripped_rosewood_log",
+    "side": "lush:block/stripped_rosewood_log"
+  }
+}

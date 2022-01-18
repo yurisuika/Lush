@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:hemlock_planks"
+    }
+  },
+  "result": {
+    "item": "lush:hemlock_boat"
+  }
+}

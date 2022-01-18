@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:redwood_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:redwood_planks",
+    "count": 4
+  }
+}

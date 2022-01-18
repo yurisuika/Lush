@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lush:teak_log",
+    "lush:teak_wood",
+    "lush:stripped_teak_log",
+    "lush:stripped_teak_wood"
+  ]
+}

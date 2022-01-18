@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:ash_planks"
+    }
+  },
+  "result": {
+    "item": "lush:ash_trapdoor",
+    "count": 2
+  }
+}

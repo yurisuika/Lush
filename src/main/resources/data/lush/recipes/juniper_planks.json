@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:juniper_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:juniper_planks",
+    "count": 4
+  }
+}

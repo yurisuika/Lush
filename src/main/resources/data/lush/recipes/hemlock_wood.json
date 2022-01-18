@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:hemlock_log"
+    }
+  },
+  "result": {
+    "item": "lush:hemlock_wood",
+    "count": 3
+  }
+}

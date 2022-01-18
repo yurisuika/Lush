@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:hickory_planks"
+    }
+  },
+  "result": {
+    "item": "lush:hickory_trapdoor",
+    "count": 2
+  }
+}

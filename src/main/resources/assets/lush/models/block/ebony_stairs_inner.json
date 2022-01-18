@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "lush:block/ebony_planks",
+        "top": "lush:block/ebony_planks",
+        "side": "lush:block/ebony_planks"
+    }
+}

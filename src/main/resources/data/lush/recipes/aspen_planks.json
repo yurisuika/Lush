@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:aspen_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:aspen_planks",
+    "count": 4
+  }
+}

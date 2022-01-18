@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "lush:block/mesquite_door_top",
+    "bottom": "lush:block/mesquite_door_bottom"
+  }
+}

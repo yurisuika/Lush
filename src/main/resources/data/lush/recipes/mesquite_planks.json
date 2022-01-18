@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:mesquite_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:mesquite_planks",
+    "count": 4
+  }
+}

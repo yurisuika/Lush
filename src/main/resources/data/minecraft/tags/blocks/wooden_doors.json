@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_door"
+    "lush:alder_door",
+    "lush:apple_door",
+    "lush:ash_door",
+    "lush:aspen_door",
+    "lush:cedar_door",
+    "lush:cherry_door",
+    "lush:chestnut_door",
+    "lush:citrus_door",
+    "lush:cottonwood_door",
+    "lush:cypress_door",
+    "lush:ebony_door",
+    "lush:fir_door",
+    "lush:gum_door",
+    "lush:hawthorn_door",
+    "lush:hazel_door",
+    "lush:hemlock_door",
+    "lush:hickory_door",
+    "lush:juniper_door",
+    "lush:larch_door",
+    "lush:mahogany_door",
+    "lush:maple_door",
+    "lush:mesquite_door",
+    "lush:peach_door",
+    "lush:pear_door",
+    "lush:pine_door",
+    "lush:redwood_door",
+    "lush:rosewood_door",
+    "lush:teak_door",
+    "lush:walnut_door",
+    "lush:willow_door"
   ]
 }

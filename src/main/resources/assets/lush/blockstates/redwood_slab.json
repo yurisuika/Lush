@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/redwood_slab" },
+        "type=top": { "model": "lush:block/redwood_slab_top" },
+        "type=double": { "model": "lush:block/redwood_planks" }
+    }
+}

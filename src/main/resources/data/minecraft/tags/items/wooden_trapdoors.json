@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_trapdoor"
+    "lush:alder_trapdoor",
+    "lush:apple_trapdoor",
+    "lush:ash_trapdoor",
+    "lush:aspen_trapdoor",
+    "lush:cedar_trapdoor",
+    "lush:cherry_trapdoor",
+    "lush:chestnut_trapdoor",
+    "lush:citrus_trapdoor",
+    "lush:cottonwood_trapdoor",
+    "lush:cypress_trapdoor",
+    "lush:ebony_trapdoor",
+    "lush:fir_trapdoor",
+    "lush:gum_trapdoor",
+    "lush:hawthorn_trapdoor",
+    "lush:hazel_trapdoor",
+    "lush:hemlock_trapdoor",
+    "lush:hickory_trapdoor",
+    "lush:juniper_trapdoor",
+    "lush:larch_trapdoor",
+    "lush:mahogany_trapdoor",
+    "lush:maple_trapdoor",
+    "lush:mesquite_trapdoor",
+    "lush:peach_trapdoor",
+    "lush:pear_trapdoor",
+    "lush:pine_trapdoor",
+    "lush:redwood_trapdoor",
+    "lush:rosewood_trapdoor",
+    "lush:teak_trapdoor",
+    "lush:walnut_trapdoor",
+    "lush:willow_trapdoor"
   ]
 }

@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_slab"
+    "lush:alder_slab",
+    "lush:apple_slab",
+    "lush:ash_slab",
+    "lush:aspen_slab",
+    "lush:cedar_slab",
+    "lush:cherry_slab",
+    "lush:chestnut_slab",
+    "lush:citrus_slab",
+    "lush:cottonwood_slab",
+    "lush:cypress_slab",
+    "lush:ebony_slab",
+    "lush:fir_slab",
+    "lush:gum_slab",
+    "lush:hawthorn_slab",
+    "lush:hazel_slab",
+    "lush:hemlock_slab",
+    "lush:hickory_slab",
+    "lush:juniper_slab",
+    "lush:larch_slab",
+    "lush:mahogany_slab",
+    "lush:maple_slab",
+    "lush:mesquite_slab",
+    "lush:peach_slab",
+    "lush:pear_slab",
+    "lush:pine_slab",
+    "lush:redwood_slab",
+    "lush:rosewood_slab",
+    "lush:teak_slab",
+    "lush:walnut_slab",
+    "lush:willow_slab"
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:citrus_log"
+    }
+  },
+  "result": {
+    "item": "lush:citrus_wood",
+    "count": 3
+  }
+}

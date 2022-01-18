@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "lush:block/redwood_planks",
+        "top": "lush:block/redwood_planks",
+        "side": "lush:block/redwood_planks"
+    }
+}

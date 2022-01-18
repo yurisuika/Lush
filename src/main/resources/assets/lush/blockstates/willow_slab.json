@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/willow_slab" },
+        "type=top": { "model": "lush:block/willow_slab_top" },
+        "type=double": { "model": "lush:block/willow_planks" }
+    }
+}

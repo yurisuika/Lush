@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_sapling"
+    "lush:alder_sapling",
+    "lush:apple_sapling",
+    "lush:ash_sapling",
+    "lush:aspen_sapling",
+    "lush:cedar_sapling",
+    "lush:cherry_sapling",
+    "lush:chestnut_sapling",
+    "lush:citrus_sapling",
+    "lush:cottonwood_sapling",
+    "lush:cypress_sapling",
+    "lush:ebony_sapling",
+    "lush:fir_sapling",
+    "lush:gum_sapling",
+    "lush:hawthorn_sapling",
+    "lush:hazel_sapling",
+    "lush:hemlock_sapling",
+    "lush:hickory_sapling",
+    "lush:juniper_sapling",
+    "lush:larch_sapling",
+    "lush:mahogany_sapling",
+    "lush:maple_sapling",
+    "lush:mesquite_sapling",
+    "lush:peach_sapling",
+    "lush:pear_sapling",
+    "lush:pine_sapling",
+    "lush:redwood_sapling",
+    "lush:rosewood_sapling",
+    "lush:teak_sapling",
+    "lush:walnut_sapling",
+    "lush:willow_sapling"
   ]
 }

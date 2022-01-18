@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "lush:block/teak_log_top",
+        "side": "lush:block/teak_log"
+    }
+}

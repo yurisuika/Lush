@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "lush:block/larch_pressure_plate" },
+        "powered=true": { "model": "lush:block/larch_pressure_plate_down" }
+    }
+}

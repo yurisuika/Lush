@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/pine_slab" },
+        "type=top": { "model": "lush:block/pine_slab_top" },
+        "type=double": { "model": "lush:block/pine_planks" }
+    }
+}

@@ -4,6 +4,12 @@
   "package": "com.yurisuika.lush.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "block.sapling.AcaciaSaplingGeneratorMixin",
+    "block.sapling.BirchSaplingGeneratorMixin",
+    "block.sapling.DarkOakSaplingGeneratorMixin",
+    "block.sapling.JungleSaplingGeneratorMixin",
+    "block.sapling.OakSaplingGeneratorMixin",
+    "block.sapling.SpruceSaplingGeneratorMixin",
     "BlockEntityTypeMixin",
     "BoatDropsMixin",
     "BoatTypeMixin",

@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:hickory_planks"
+    }
+  },
+  "result": {
+    "item": "lush:hickory_pressure_plate"
+  }
+}

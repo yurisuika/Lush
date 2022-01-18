@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:apple_log"
+    }
+  },
+  "result": {
+    "item": "lush:apple_wood",
+    "count": 3
+  }
+}

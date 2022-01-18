@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "lush:block/aspen_planks",
+        "top": "lush:block/aspen_planks",
+        "side": "lush:block/aspen_planks"
+    }
+}

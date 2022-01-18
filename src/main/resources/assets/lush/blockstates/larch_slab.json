@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/larch_slab" },
+        "type=top": { "model": "lush:block/larch_slab_top" },
+        "type=double": { "model": "lush:block/larch_planks" }
+    }
+}

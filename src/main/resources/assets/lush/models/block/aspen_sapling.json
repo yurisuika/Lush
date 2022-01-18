@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "lush:block/aspen_sapling"
+    }
+}

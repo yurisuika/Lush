@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:cedar_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:cedar_planks",
+    "count": 4
+  }
+}

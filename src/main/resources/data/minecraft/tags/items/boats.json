@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_boat"
+    "lush:alder_boat",
+    "lush:apple_boat",
+    "lush:ash_boat",
+    "lush:aspen_boat",
+    "lush:cedar_boat",
+    "lush:cherry_boat",
+    "lush:chestnut_boat",
+    "lush:citrus_boat",
+    "lush:cottonwood_boat",
+    "lush:cypress_boat",
+    "lush:ebony_boat",
+    "lush:fir_boat",
+    "lush:gum_boat",
+    "lush:hawthorn_boat",
+    "lush:hazel_boat",
+    "lush:hemlock_boat",
+    "lush:hickory_boat",
+    "lush:juniper_boat",
+    "lush:larch_boat",
+    "lush:mahogany_boat",
+    "lush:maple_boat",
+    "lush:mesquite_boat",
+    "lush:peach_boat",
+    "lush:pear_boat",
+    "lush:pine_boat",
+    "lush:redwood_boat",
+    "lush:rosewood_boat",
+    "lush:teak_boat",
+    "lush:walnut_boat",
+    "lush:willow_boat"
   ]
 }

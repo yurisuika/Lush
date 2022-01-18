@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lush:maple_log",
+    "lush:maple_wood",
+    "lush:stripped_maple_log",
+    "lush:stripped_maple_wood"
+  ]
+}

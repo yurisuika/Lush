@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "lush:block/stripped_mesquite_wood" },
+        "axis=z": { "model": "lush:block/stripped_mesquite_wood", "x": 90 },
+        "axis=x": { "model": "lush:block/stripped_mesquite_wood", "x": 90, "y": 90 }
+    }
+}

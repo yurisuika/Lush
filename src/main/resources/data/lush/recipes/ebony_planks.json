@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:ebony_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:ebony_planks",
+    "count": 4
+  }
+}

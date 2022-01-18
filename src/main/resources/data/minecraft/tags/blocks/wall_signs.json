@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_sign"
+    "lush:alder_sign",
+    "lush:apple_sign",
+    "lush:ash_sign",
+    "lush:aspen_sign",
+    "lush:cedar_sign",
+    "lush:cherry_sign",
+    "lush:chestnut_sign",
+    "lush:citrus_sign",
+    "lush:cottonwood_sign",
+    "lush:cypress_sign",
+    "lush:ebony_sign",
+    "lush:fir_sign",
+    "lush:gum_sign",
+    "lush:hawthorn_sign",
+    "lush:hazel_sign",
+    "lush:hemlock_sign",
+    "lush:hickory_sign",
+    "lush:juniper_sign",
+    "lush:larch_sign",
+    "lush:mahogany_sign",
+    "lush:maple_sign",
+    "lush:mesquite_sign",
+    "lush:peach_sign",
+    "lush:pear_sign",
+    "lush:pine_sign",
+    "lush:redwood_sign",
+    "lush:rosewood_sign",
+    "lush:teak_sign",
+    "lush:walnut_sign",
+    "lush:willow_sign"
   ]
 }

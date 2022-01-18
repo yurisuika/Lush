@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lush:juniper_log",
+    "lush:juniper_wood",
+    "lush:stripped_juniper_log",
+    "lush:stripped_juniper_wood"
+  ]
+}

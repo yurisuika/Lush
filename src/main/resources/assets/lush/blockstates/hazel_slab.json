@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "lush:block/hazel_slab" },
+        "type=top": { "model": "lush:block/hazel_slab_top" },
+        "type=double": { "model": "lush:block/hazel_planks" }
+    }
+}

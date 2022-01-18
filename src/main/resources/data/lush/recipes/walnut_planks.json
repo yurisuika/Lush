@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:walnut_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:walnut_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:hawthorn_planks"
+    }
+  },
+  "result": {
+    "item": "lush:hawthorn_door",
+    "count": 3
+  }
+}

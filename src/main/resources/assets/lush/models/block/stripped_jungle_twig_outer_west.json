@@ -1,8 +1,0 @@
-{
-	"parent": "lush:block/template_twig_outer_west",
-	"textures": {
-		"end": "lush:block/stripped_jungle_twig_end",
-		"particle": "lush:block/stripped_jungle_trunk",
-		"side": "lush:block/stripped_jungle_twig"
-	}
-}

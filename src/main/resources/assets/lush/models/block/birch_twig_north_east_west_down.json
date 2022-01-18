@@ -1,9 +1,0 @@
-{
-	"parent": "lush:block/template_twig_north_east_west_down",
-	"textures": {
-		"end": "lush:block/birch_twig_end",
-		"particle": "lush:block/birch_trunk",
-		"sideLRD": "lush:block/birch_twig_left_right_down",
-		"sideLRU": "lush:block/birch_twig_left_right_up"
-	}
-}

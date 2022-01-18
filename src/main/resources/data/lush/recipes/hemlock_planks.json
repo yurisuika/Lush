@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "lush:hemlock_logs"
+    }
+  ],
+  "result": {
+    "item": "lush:hemlock_planks",
+    "count": 4
+  }
+}

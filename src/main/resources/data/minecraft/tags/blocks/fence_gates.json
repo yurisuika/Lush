@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_fence_gate"
+    "lush:alder_fence_gate",
+    "lush:apple_fence_gate",
+    "lush:ash_fence_gate",
+    "lush:aspen_fence_gate",
+    "lush:cedar_fence_gate",
+    "lush:cherry_fence_gate",
+    "lush:chestnut_fence_gate",
+    "lush:citrus_fence_gate",
+    "lush:cottonwood_fence_gate",
+    "lush:cypress_fence_gate",
+    "lush:ebony_fence_gate",
+    "lush:fir_fence_gate",
+    "lush:gum_fence_gate",
+    "lush:hawthorn_fence_gate",
+    "lush:hazel_fence_gate",
+    "lush:hemlock_fence_gate",
+    "lush:hickory_fence_gate",
+    "lush:juniper_fence_gate",
+    "lush:larch_fence_gate",
+    "lush:mahogany_fence_gate",
+    "lush:maple_fence_gate",
+    "lush:mesquite_fence_gate",
+    "lush:peach_fence_gate",
+    "lush:pear_fence_gate",
+    "lush:pine_fence_gate",
+    "lush:redwood_fence_gate",
+    "lush:rosewood_fence_gate",
+    "lush:teak_fence_gate",
+    "lush:walnut_fence_gate",
+    "lush:willow_fence_gate"
   ]
 }

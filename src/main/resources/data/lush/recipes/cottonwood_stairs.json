@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:cottonwood_planks"
+    }
+  },
+  "result": {
+    "item": "lush:cottonwood_stairs",
+    "count": 4
+  }
+}

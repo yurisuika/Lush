@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lush:ebony_log",
+    "lush:ebony_wood",
+    "lush:stripped_ebony_log",
+    "lush:stripped_ebony_wood"
+  ]
+}

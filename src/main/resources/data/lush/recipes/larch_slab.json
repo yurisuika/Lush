@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lush:larch_planks"
+    }
+  },
+  "result": {
+    "item": "lush:larch_slab",
+    "count": 6
+  }
+}

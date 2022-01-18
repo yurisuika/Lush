@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_button"
+    "lush:alder_button",
+    "lush:apple_button",
+    "lush:ash_button",
+    "lush:aspen_button",
+    "lush:cedar_button",
+    "lush:cherry_button",
+    "lush:chestnut_button",
+    "lush:citrus_button",
+    "lush:cottonwood_button",
+    "lush:cypress_button",
+    "lush:ebony_button",
+    "lush:fir_button",
+    "lush:gum_button",
+    "lush:hawthorn_button",
+    "lush:hazel_button",
+    "lush:hemlock_button",
+    "lush:hickory_button",
+    "lush:juniper_button",
+    "lush:larch_button",
+    "lush:mahogany_button",
+    "lush:maple_button",
+    "lush:mesquite_button",
+    "lush:peach_button",
+    "lush:pear_button",
+    "lush:pine_button",
+    "lush:redwood_button",
+    "lush:rosewood_button",
+    "lush:teak_button",
+    "lush:walnut_button",
+    "lush:willow_button"
   ]
 }

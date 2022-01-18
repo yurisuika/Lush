@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lush:hemlock_log",
+    "lush:hemlock_wood",
+    "lush:stripped_hemlock_log",
+    "lush:stripped_hemlock_wood"
+  ]
+}

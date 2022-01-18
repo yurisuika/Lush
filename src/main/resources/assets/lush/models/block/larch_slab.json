@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "lush:block/larch_planks",
+        "top": "lush:block/larch_planks",
+        "side": "lush:block/larch_planks"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lush:willow_log",
+    "lush:willow_wood",
+    "lush:stripped_willow_log",
+    "lush:stripped_willow_wood"
+  ]
+}

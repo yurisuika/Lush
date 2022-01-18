@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
-    "lush:fir_planks"
+    "lush:alder_planks",
+    "lush:apple_planks",
+    "lush:ash_planks",
+    "lush:aspen_planks",
+    "lush:cedar_planks",
+    "lush:cherry_planks",
+    "lush:chestnut_planks",
+    "lush:citrus_planks",
+    "lush:cottonwood_planks",
+    "lush:cypress_planks",
+    "lush:ebony_planks",
+    "lush:fir_planks",
+    "lush:gum_planks",
+    "lush:hawthorn_planks",
+    "lush:hazel_planks",
+    "lush:hemlock_planks",
+    "lush:hickory_planks",
+    "lush:juniper_planks",
+    "lush:larch_planks",
+    "lush:mahogany_planks",
+    "lush:maple_planks",
+    "lush:mesquite_planks",
+    "lush:peach_planks",
+    "lush:pear_planks",
+    "lush:pine_planks",
+    "lush:redwood_planks",
+    "lush:rosewood_planks",
+    "lush:teak_planks",
+    "lush:walnut_planks",
+    "lush:willow_planks"
   ]
 }

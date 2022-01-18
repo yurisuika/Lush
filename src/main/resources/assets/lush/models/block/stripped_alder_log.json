@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "lush:block/stripped_alder_log_top",
+        "side": "lush:block/stripped_alder_log"
+    }
+}
