@@ -2,7 +2,7 @@
 
 # <p align="center">LUSH</p>
 
-Lush is a Fabric mod that sows the forests of Minecraft rich with more species of trees! More than just a simple tree mod, Lush also adds trunk, branch, and twig blocks (and their stripped versions) for every species to give you more realistic trees. No longer does every tree just have a boring thick trunk!
+Lush is a Fabric mod that sows the forests of Minecraft rich with more species of trees!
 
 You will also find color support for the *[Seasons](https://github.com/yurisuika/Seasons)* mod to give Lush leaves ephemeral beauty. If you desire to use the *[Isabella](https://github.com/yurisuika/Isabella)* resource pack, then install *[Catherine](https://github.com/yurisuika/Catherine)* and get support for not just Isabella, but also Isabella colored Seasons! Lush will then use the proper colors!
 
@@ -45,7 +45,6 @@ Stable releases of Lush ready to be consumed by the public!
 #### Dependencies
 
 Lush requires *[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)* as a dependency!
-
 
 #### Credits
 
