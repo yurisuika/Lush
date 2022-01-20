@@ -13,7 +13,7 @@
     "sources": "https://github.com/yurisuika/Lush"
   },
 
-  "license": "MIT",
+  "license": "GNU General Public License 3.0",
   "icon": "assets/lush/icon.png",
 
   "environment": "*",
