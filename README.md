@@ -28,16 +28,6 @@ cd ./lush
 
 Afterwards, your compiled JAR will be in `./build/libs`.
 
-### Released Builds
-
-While you can compile from source, you can always download the latest releases right off of GitHub. Either click the links below or check the releases tab.
-
-#### Latest Builds
-
-Stable releases of Lush ready to be consumed by the public!
-
-##### NOTHING YET!!!
-
 ---
 
 ## <p align="center">LINKS</p>
@@ -49,10 +39,6 @@ Lush requires *[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-
 #### Credits
 
 *[Boats](https://github.com/nyuppo/fabric-boat-example)* and *[Signs](https://github.com/nyuppo/fabric-sign-example)* are thanks to nyuppo!
-
-#### Servers
-
-Join *`play.suikacraft.com`* to play on SuikaCraft today!
 
 #### Community
 
