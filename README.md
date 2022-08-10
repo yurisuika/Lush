@@ -26,4 +26,4 @@ Afterwards, your compiled JAR will be in `./build/libs`.
 
 #### Community
 
-The one and only! Join the *[SuikaCraft Discord](https://discord.gg/0zdNEkQle7Qg9C1H)* to find the latest discussion on the resource pack and server or just to chat!
+The one and only! Join the *[Discord](https://discord.gg/0zdNEkQle7Qg9C1H)* to find the latest discussion on the resource pack and server or just to chat!
