@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/yurisuika/Lush/blob/Fabric-1.18/src/main/resources/assets/lush/icon.png?raw=true" width="256" height="256"></p>
+<p align="center"><img src="https://github.com/yurisuika/Lush/blob/Fabric-1.18.2/src/main/resources/assets/lush/icon.png?raw=true" width="256" height="256"></p>
 
 **Lush** is a Fabric mod for Minecraft that sows the forests rich with more species of trees!
 
